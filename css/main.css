@@ -1,0 +1,61 @@
+.slider .slides li .caption {
+  top: 10%;
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.main1 {
+  background-color: black;
+}
+
+.main-header {
+  background: url(../img/resort2.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 660px;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.indicators {
+  visibility: hidden;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.ul-logo {
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 7rem;
+  height: auto;
+}
+
+.home-img {
+  opacity: 0.5 !important;
+}
+
+a {
+  font-size: 1.1rem !important;
+}
+
+.places {
+  font-size: 2rem !important;
+  margin-bottom: 10px;
+}
+
+.media-plug {
+  padding-bottom: 1rem;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}

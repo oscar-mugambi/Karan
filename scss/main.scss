@@ -1,0 +1,32 @@
+@import "./materialize.scss";
+
+//Text Color Function
+
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+
+body {
+  // color: swt-text-color($primary-color);
+  background-color: teal;
+  color: #ffffff;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.card-content {
+  color: $primary-color;
+}
+
+.modal {
+  color: #333;
+}
