@@ -1,0 +1,21 @@
+{
+  "name": "kara-tourism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar-mugambi/Karan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscar-mugambi/Karan/issues"
+  },
+  "homepage": "https://github.com/oscar-mugambi/Karan#readme"
+}

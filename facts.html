@@ -24,6 +24,70 @@
   </head>
 
   <body>
+    <div class="overlay">
+      <div class="main-header">
+        <nav class="transparent">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <!-- hide menu when screen is medium or lower -->
+              <a class="brand-logo ul-logo" id="logo-container">
+                <img src="img/Karan_Logo.png" class="logo" alt="" />
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#popular">Popular Places</a>
+                </li>
+                <li>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="showcase container">
+          <div class="row">
+            <div class="col s12 m10 offset-m1 center">
+              <h5 class="main-text">Lorem ipsum dolor sit.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About Us</a>
+      </li>
+      <li>
+        <a href="#search">Search</a>
+      </li>
+      <li>
+        <a href="#popular">Popular Places</a>
+      </li>
+      <li>
+        <a href="#gallery">Gallery</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
     <section class="section section-main">
       <div class="container">
         <!-- Row 1 -->
@@ -338,6 +402,7 @@
       </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -351,6 +416,9 @@
         //init modal
         $(".modal").modal();
       });
+
+      const sideNav = document.querySelector(".sidenav");
+      M.Sidenav.init(sideNav, {});
     </script>
   </body>
 </html>

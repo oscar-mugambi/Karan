@@ -1,7 +1,13 @@
-@import "./materialize.scss";
-
+@import "./abstract/functions";
+@import "./abstract/mixins";
+@import "./abstract/variables";
+@import "./base/animations";
+@import "./component-1/button.scss";
+@import "materialize.scss";
+@import "base/base";
+@import "base/utilities";
+@import "Layout/grid";
 //Text Color Function
-
 @function set-text-color($color) {
   @if (lightness($color) >50) {
     @return #000000;
@@ -11,9 +17,22 @@
 }
 
 body {
-  // color: swt-text-color($primary-color);
-  background-color: teal;
+  background-color: #00796b;
   color: #ffffff;
+}
+
+.ul-logo {
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 7rem;
+  height: auto;
+}
+
+.main-text {
+  padding-top: 26px;
+  padding-bottom: 10px;
 }
 
 .img-content {
