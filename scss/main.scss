@@ -1,13 +1,14 @@
-@import "./abstract/functions";
-@import "./abstract/mixins";
-@import "./abstract/variables";
-@import "./base/animations";
-@import "./component-1/button.scss";
+// @import "./abstract/functions";
+// @import "./abstract/mixins";
+// @import "./abstract/variables";
+// @import "./base/animations";
+// @import "./component-1/button.scss";
 @import "materialize.scss";
-@import "base/base";
-@import "base/utilities";
-@import "Layout/grid";
+// @import "base/base";
+// @import "base/utilities";
+// @import "Layout/grid";
 //Text Color Function
+
 @function set-text-color($color) {
   @if (lightness($color) >50) {
     @return #000000;
@@ -17,7 +18,8 @@
 }
 
 body {
-  background-color: #00796b;
+  background-image: linear-gradient(to right, #de7c00, #651b32);
+  // background-image: linear-gradient(to right, #7b4397, #dc2430);
   color: #ffffff;
 }
 
@@ -33,6 +35,8 @@ body {
 .main-text {
   padding-top: 26px;
   padding-bottom: 10px;
+  color: #e9e9e9;
+  font-weight: 600;
 }
 
 .img-content {
@@ -48,4 +52,8 @@ body {
 
 .modal {
   color: #333;
+}
+
+.radius {
+  border-radius: 500px !important;
 }

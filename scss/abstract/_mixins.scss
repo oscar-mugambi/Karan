@@ -5,3 +5,24 @@
     clear: both;
   }
 }
+
+// MEDIA QUERY MANAGER
+
+/*
+0 - 600px Phone
+600 - 900px Tablet Potrait
+900 - 1200px Tablet Landscape
+1200 - Normal styles
+1800px : Big Desktop
+
+*/
+
+@mixin respond-phone {
+  @media (max-width: 600px) {
+    font-size: 50%;
+  }
+
+  @include respond-phone {
+    font-size: 50%;
+  }
+}
