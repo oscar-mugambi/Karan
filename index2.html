@@ -1,34 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Grid Cards</title>
+    <!--Google Font-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Karan Tours</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="index2.css" />
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <a>
-          <img src="img/Karan_Logo.png" class="logo" alt="" />
-        </a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Our Travels</a></li>
-        <li><a href="">Fun Facts</a></li>
-      </ul>
+    <!-- NAVBAR START HERE -->
 
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
+    <div class="top1"></div>
+    <nav id="nav1">
+      <div class="nav" id="awwwards">A<span>www</span>ards</div>
+      <div class="nav" id="home">Home</div>
+      <div class="nav" id="home">About Us</div>
+      <div class="nav" id="home">Our Travels</div>
+
+      <div class="nav" id="subSite">Fun Facts</div>
     </nav>
+
+    <!-- NAVBAR START HERE -->
+
+    <!-- GRID CARDS STARTS HERE -->
+
+    <div class="cards">
+      <div class="card card1">
+        <div class="container">
+          <img src="./img/gridpics/las vegas.jpg" alt="las vegas" />
+        </div>
+        <div class="details">
+          <h3>Las Vegas</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            dignissimos, minus aperiam adipisci exercitationem.
+          </p>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="container">
+          <img src="./img/gridpics/newyork.jpg" alt="New York" />
+        </div>
+        <div class="details">
+          <h3>New York</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            dignissimos, minus aperiam adipisci exercitationem.
+          </p>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="container">
+          <img src="./img/africa-facts.jpg" alt="Singapore" />
+        </div>
+        <div class="details">
+          <h3>Singapore</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            dignissimos, minus aperiam adipisci exercitationem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRID CARDS STARTS HERE -->
   </body>
 </html>
