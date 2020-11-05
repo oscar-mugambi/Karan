@@ -13,93 +13,6 @@
   font-family: "Poppins", sans-serif;
 }
 /* NAIGATION STARTS HERE */
-/* 
-@media screen and (max-width: 1400px) {
-  .nav {
-    display: none;
-  }
-  #awwwards,
-  #home,
-  #subSite,
-  #mag {
-    display: initial;
-  }
-}
-
-body {
-  margin: 0;
-}
-
-#nav1 {
-  display: flex;
-  height: 67px;
-  width: 100%;
-  background-color: #e1e3e4;
-  border-bottom: 1px solid #d2d6d5;
-  border-top: 1px solid #d2d6d5;
-  position: fixed;
-  top: 2em;
-  z-index: 1000;
-}
-
-.nav {
-  flex: 1;
-  line-height: 67px;
-  font-size: 14px;
-  text-align: center;
-  text-transform: uppercase;
-  border-left: 1px solid #d2d6d5;
-  cursor: pointer;
-  color: #000000 !important;
-}
-.nav:hover {
-  background-color: #f4f4f4;
-}
-
-span {
-  color: #3c948b;
-}
-
-#awwwards {
-  flex: 4;
-  text-align: left;
-  padding-left: 1em;
-  font-size: 1.5em;
-}
-
-#home {
-  border: none;
-  font-weight: bold;
-}
-
-#subSite {
-  flex: 2;
-  height: 66px;
-  background-color: #3c948b;
-  color: white;
-  font-weight: bold;
-  border: none;
-}
-
-#mag {
-  height: 68px;
-  color: white;
-  background-color: black;
-  border: none;
-}
-
-h4 {
-  margin-top: 7em;
-}
-
-.top1 {
-  height: 2em;
-  width: 100%;
-  background-color: #e1e3e4;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-} */
 
 /* NAIGATION ENDS HERE */
 
@@ -165,16 +78,16 @@ h4 {
 
 /* MENU STYLES */
 .menu-wrap {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: 0px;
+  right: 0;
   z-index: 1;
 }
 
 .menu-wrap .toggler {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: 0px;
+  right: 0;
   z-index: 2;
   cursor: pointer;
   width: 50px;
@@ -184,13 +97,14 @@ h4 {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -7px;
+  right: 0;
   z-index: 1;
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background-color: rgba(0, 0, 0, 0.145);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -321,13 +235,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px;
+  padding: 5px 100px;
   z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.118);
 }
 
 .logo {
   position: relative;
-  width: 7rem;
+  width: 10rem;
+  z-index: 10000;
 }
 
 header .toggle {
@@ -356,7 +272,6 @@ header .toggle img {
   top: 0;
   width: 400px;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 /* edit here */
@@ -456,9 +371,10 @@ header .toggle img {
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  padding: 20px;
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  padding: 30px;
+  padding: 100px 20px;
+  grid-gap: 50px;
 }
 .card {
   background-color: #1c1b29;
@@ -495,8 +411,12 @@ header .toggle img {
 }
 .card2 > .container:after {
   background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+  margin-left: 1rem;
 }
 .card3 > .container:after {
+  background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+}
+.card4 > .container:after {
   background-image: linear-gradient(135deg, #ffab1d, #f8501c);
 }
 .details {
@@ -516,6 +436,76 @@ header .toggle img {
 }
 
 /* CARD GRID ENDS HERE */
+
+/* PACKAGES STARTS HERE*/
+
+.body-packages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+
+.container-packages {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container-packages .card-packages {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+
+.card-packages:hover {
+  height: 420px;
+}
+
+.imgBx-packages {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgBx-packages img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.content-packages {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.card-packages:hover .content-packages {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+/* PACKAGES ENDS HERE*/
 
 /* FOOTER STARTS HERE */
 
