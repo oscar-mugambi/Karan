@@ -504,6 +504,8 @@ footer {
   }
 }
 
+/* FOOTER ENDS HERE */
+
 @media (max-width: 767px) {
   section {
     padding: 40px;
@@ -535,5 +537,3 @@ footer {
     margin-bottom: 30px;
   }
 }
-
-/* FOOTER ENDS HERE */
