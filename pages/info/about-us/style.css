@@ -11,6 +11,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 /* NAIGATION ENDS HERE */
 
@@ -280,7 +281,7 @@ header {
 }
 
 .titleText {
-  font-weight: 600;
+  font-weight: 300;
   color: #fff;
   font-size: 2em;
   margin-bottom: 10px;
@@ -367,8 +368,9 @@ footer {
 }
 .box h2 {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 300;
   text-transform: uppercase;
+  color: white;
 }
 .box .content {
   margin: 20px 0 0 0;
@@ -392,6 +394,8 @@ footer {
 }
 .left .content p {
   text-align: justify;
+  color: white;
+  font-weight: 300;
 }
 .left .content .social {
   margin: 20px 0 0 0;
@@ -428,7 +432,7 @@ footer {
 }
 .center .content .text {
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: 300;
   padding-left: 10px;
 }
 .center .content .phone {

@@ -239,10 +239,12 @@ header {
 .banner .content h2 {
   color: #fff;
   font-size: 4em;
+  font-weight: 200;
 }
 .banner .content p {
   color: #fff;
   font-size: 1.3em;
+  font-weight: 200;
 }
 
 .btn {
@@ -328,6 +330,26 @@ header {
   height: 400px;
   z-index: 1;
   background: linear-gradient(to bottom, #111, transparent);
+}
+
+.mxw800p h3 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mxw800p p {
+  position: relative;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.mxw800p {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #fff;
 }
 
 /* ONLINE TUTORIALS END HERE */
