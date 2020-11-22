@@ -584,6 +584,9 @@ header .toggle img {
   position: relative;
   height: 100vh;
 }
+.body-1 {
+  padding: 2rem 0 4rem 0;
+}
 
 .title-1 {
   text-align: center;
@@ -1059,7 +1062,7 @@ footer span {
 @media (max-width: 1350px) {
   .body {
     position: relative;
-    height: 100vh;
+    height: 70vh;
   }
 
   .title-1 {
@@ -1122,7 +1125,7 @@ footer span {
 
 @media (max-width: 850px) {
   .body {
-    height: 90vh;
+    height: 40vh;
   }
 
   .swiper-container {
@@ -1132,7 +1135,7 @@ footer span {
 }
 @media (max-width: 750px) {
   .body {
-    height: 90vh;
+    height: 40vh;
   }
 
   .swiper-container {
@@ -1168,5 +1171,14 @@ footer span {
   .swiper-container {
     height: 600px;
     width: 100px;
+  }
+}
+@media (max-width: 370px) {
+  .body {
+    height: 50vh;
+  }
+
+  .swiper-container {
+    height: 600px;
   }
 }
