@@ -1056,6 +1056,30 @@ footer span {
 
 /* FOOTER ENDS HERE */
 
+@media (max-width: 1400px) {
+  .body {
+    margin-top: 3rem;
+    position: relative;
+    height: 65vh;
+  }
+
+  .swiper-container {
+    height: 500px;
+    width: 900px;
+  }
+  .content h2 {
+    margin-top: 3rem;
+    font-size: 30px;
+  }
+
+  .content h2,
+  .content p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px 50px;
