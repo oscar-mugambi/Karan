@@ -162,10 +162,6 @@
 
 /* HAMBURGER MENU ENDS HERE */
 
-/* LANDING PAGE STARTS HERE */
-
-/* ONLINE TUTORIAL STARTS HERE */
-
 body {
   background: #111;
 }
@@ -175,6 +171,36 @@ body {
   top: 3px;
   width: 7.5rem;
   z-index: 10000;
+}
+
+header .toggle img {
+  max-width: 100%;
+}
+
+section {
+  position: relative;
+  padding: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+  z-index: 1000;
+  /* background-color: #151320af; */
+  background-color: rgb(211, 211, 211);
+  z-index: 1000000;
+}
+
+.header .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 .top-logo-phone {
@@ -213,41 +239,8 @@ body {
 
 .top-text {
   position: relative;
-  font-size: 1.18rem !important;
+  font-size: 1.2rem;
   right: -0.5rem;
-  color: black !important;
-  font-weight: 300;
-}
-
-header .toggle img {
-  max-width: 100%;
-}
-
-section {
-  position: relative;
-  padding: 100px;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 100px;
-  z-index: 1000;
-  /* background-color: #151320af; */
-  background-color: rgb(211, 211, 211);
-  z-index: 1000000;
-}
-
-.header .logo {
-  position: relative;
-  top: 3px;
-  width: 7.5rem;
-  z-index: 10000;
 }
 
 .header .toggle img {
@@ -255,180 +248,46 @@ header {
   cursor: pointer;
 }
 
-.banner {
+/* ONLINE TUTS STARTS HERE */
+.read-more {
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to top, #111, transparent);
-}
-
-.banner .content {
-  margin-top: -10rem;
-  position: relative;
-  max-width: 900px;
-  text-align: center;
-  z-index: 1;
-}
-
-.banner .content h2 {
-  color: #fff;
-  font-size: 4em;
+  margin-top: 3rem;
   font-weight: 200;
-}
-.banner .content p {
-  color: #fff;
-  font-size: 1.3em;
-  font-weight: 200;
+  right: 3rem;
 }
 
-.btn {
+.read-more p {
+  color: #fff;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 34px;
+}
+
+.read-more img {
+  height: 380px;
+  float: left;
+  shape-outside: url(../../img/africareadmore.png);
+  margin-top: 50px;
+  shape-margin: 15px;
+}
+
+.p-1 {
   position: relative;
   display: inline-block;
-  margin-top: 30px;
-  padding: 10px 30px;
-  background: #fff;
-  color: #333;
-  text-decoration: none;
-  font-weight: 300 !important;
-}
-
-.fitBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.4;
-}
-
-.about {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about .contentBx {
-  min-width: 50%;
-  width: 50%;
-  text-align: end;
-  padding-right: 40px;
-}
-
-.titleText {
-  font-weight: 600;
-  color: #fff;
-  font-size: 2em;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
-.text {
-  color: #fff;
-  font-size: 1em;
-}
-
-.about .imgBx {
-  position: relative;
-  min-width: 50%;
-  width: 50%;
-  min-height: 500px;
-}
-
-.banner3 {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner3:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to top, #111, transparent);
-}
-
-.banner3:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to bottom, #111, transparent);
-}
-
-.mxw800p h3 {
-  font-size: 40px;
-  font-weight: 200;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.mxw800p p {
-  position: relative;
-  font-size: 18px;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
-
-.mxw800p {
-  max-width: 900px;
-  margin: 0 auto;
-  color: #fff;
-}
-
-/* ONLINE TUTORIALS END HERE */
-
-/* CARD GRID ENDS HERE */
+/* ONLINE TUTS ENDS HERE */
 
 /* FOOTER STARTS HERE */
 
-.content1 {
-  position: relative;
-  margin: 130px auto;
-  text-align: center;
-  padding: 0 20px;
-}
-.content1 .text {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #202020;
-}
-.content1 .p {
-  font-size: 2.1875rem;
-  font-weight: 600;
-  color: #202020;
-}
 footer {
   position: relative;
   bottom: 0px;
-  width: 100%;
+  padding-left: 85px;
   background: #111;
-  padding: 4rem 0;
-  padding-left: 90px;
+  color: #fff;
 }
 
 .main-content {
@@ -442,7 +301,7 @@ footer {
   font-size: 1.125rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: #fff;
+  color: white;
 }
 .box .content {
   margin: 20px 0 0 0;
@@ -466,7 +325,8 @@ footer {
 }
 .left .content p {
   text-align: justify;
-  color: #fff;
+  color: white;
+  font-weight: 300;
 }
 .left .content .social {
   margin: 20px 0 0 0;
@@ -480,11 +340,9 @@ footer {
   background: #1a1a1a;
   line-height: 40px;
   text-align: center;
-  font-size: 40px;
+  font-size: 18px;
   border-radius: 5px;
   transition: 0.3s;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
 }
 .left .content .social a span:hover {
   background: #f12020;
@@ -505,7 +363,7 @@ footer {
 }
 .center .content .text {
   font-size: 1.0625rem;
-  font-weight: 200;
+  font-weight: 300;
   padding-left: 10px;
 }
 .center .content .phone {
@@ -583,8 +441,21 @@ footer {
 
 /* FOOTER ENDS HERE */
 
+@media (max-width: 1300px) {
+  .read-more img {
+    display: none;
+  }
+
+  .read-more {
+    position: relative;
+    margin-top: 3rem;
+    font-weight: 200;
+    right: 0;
+  }
+}
+
 @media (max-width: 767px) {
-  section {
+  /* section {
     padding: 40px;
   }
   .banner .content h2 {
@@ -612,5 +483,5 @@ footer {
 
   .btn {
     margin-bottom: 30px;
-  }
+  } */
 }

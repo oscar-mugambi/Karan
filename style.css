@@ -96,16 +96,18 @@
   opacity: 0;
 }
 
+/* COPY 1 */
+
 .menu-wrap .hamburger {
   position: absolute;
-  top: -7px;
+  top: 0px;
   right: 0;
   z-index: 1;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   padding: 1rem;
   /* background: var(--primary-color); */
-  background-color: rgba(0, 0, 0, 0.145);
+  background-color: rgba(0, 0, 0, 0.542);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,8 +230,10 @@ body {
   background: #111;
 }
 
+/* COPY 2 */
+
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -238,14 +242,17 @@ header {
   align-items: center;
   padding: 5px 100px;
   z-index: 1000;
-  background-color: #151320af;
+  /* background-color: #151320af; */
+  background-color: rgb(211, 211, 211);
   z-index: 1000000;
 }
+
+/* COPY 3 */
 
 .logo {
   position: relative;
   top: 3px;
-  width: 10rem;
+  width: 7.5rem;
   z-index: 10000;
 }
 
@@ -256,6 +263,48 @@ header .toggle {
 
 header .toggle img {
   max-width: 100%;
+}
+
+/* COPY 4 */
+
+.top-logo-phone {
+  position: relative;
+  top: 0px;
+  color: rgba(33, 21, 21, 0.802);
+  font-size: 1.5rem;
+}
+
+.header-info {
+  position: relative;
+  top: -4px;
+  left: 6rem;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.instagram {
+  color: #c13584;
+}
+
+.top-logo-twitter {
+  position: relative;
+  left: 2rem;
+  font-size: 2rem;
+  top: 4px;
+}
+.top-logo-instagram {
+  position: relative;
+  left: 4rem;
+  font-size: 2rem;
+  top: 4px;
+}
+
+.top-text {
+  position: relative;
+  font-size: 1.2rem;
+  right: -0.5rem;
 }
 
 .banner {
@@ -334,6 +383,92 @@ header .toggle img {
 .banner .videoBx img {
   opacity: 1;
 }
+
+/* KEVIN POWELL COLLAGE STARTS HERE */
+
+.the-main-content {
+  position: relative;
+  background: transparent;
+  margin-left: 40px;
+  padding: 0rem;
+  height: 400px;
+  width: 100%;
+}
+
+.portfolio {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+}
+
+.the-main-content .portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-item.small {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.portfolio-item.medium {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.portfolio-item.large {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+.portfolio-item.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+.portfolio-item.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+
+.one {
+  background-image: url(./img/collage/wide44.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+}
+
+.two {
+  background-image: url(./img/collage/talll.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+}
+.three {
+  background-image: url(./img/collage/tall2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.four {
+  background-image: url(./img/collage/wide3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.five {
+  background-image: url(./img/collage/tall3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 10px;
+}
+
+.six {
+  background-image: url(./img/collage/wide.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+}
+
+/* KEVIN POWELL COLLAGE STARTS HERE */
 
 .banner .sci {
   position: absolute;
@@ -442,8 +577,125 @@ header .toggle img {
 
 /* CARD GRID ENDS HERE */
 
+/* WHO CAN TRAVEL WITH US STARTS HERE */
+
+.body {
+  margin-top: 5rem;
+  position: relative;
+  height: 100vh;
+}
+
+.title-1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.swiper-container {
+  height: 500px;
+  width: 500px;
+}
+
+.swiper-slide {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.box-1 {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  color: white;
+
+  background: #060c21;
+  padding: 1rem;
+}
+
+.box-1 .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: block;
+
+  pointer-events: none;
+}
+
+.prev,
+.next {
+  color: #fff !important;
+}
+
+.box-1:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+}
+.box-1:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(30px);
+}
+
+.box-1::before,
+.box-1::after {
+  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box-1 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 4rem;
+  color: #fff;
+}
+
+.content h2 {
+  margin-top: 3rem;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.content h2,
+.content p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+/* WHO CAN TRAVEL WITH US STARTS HERE */
+
 /* PACKAGES STARTS HERE*/
-/* 
+
 .body-packages {
   display: flex;
   justify-content: center;
@@ -508,7 +760,7 @@ header .toggle img {
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.3s;
-} */
+}
 
 /* PACKAGES ENDS HERE*/
 
@@ -612,6 +864,10 @@ header .toggle img {
 
 /* NEW CARD GRID STARTS HERE*/
 
+/* WHAT YOU SHOULD KNOW */
+
+/* WHAT YOU SHOULD KNOW */
+
 /* FOOTER STARTS HERE */
 
 .content1 {
@@ -636,6 +892,7 @@ footer {
   width: 100%;
   background: #111;
   padding: 4rem 0;
+  padding-left: 90px;
 }
 
 footer h2,
@@ -820,7 +1077,8 @@ footer span {
     font-size: 2.5em;
   }
 
-  .banner .videoBx {
+  .banner .videoBx,
+  .the-main-content {
     width: 100%;
     height: 564px;
     margin: 40px 0 100px;

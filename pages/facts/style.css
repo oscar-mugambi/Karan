@@ -27,14 +27,14 @@
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: -7px;
+  top: 0px;
   right: 0;
   z-index: 1;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   padding: 1rem;
   /* background: var(--primary-color); */
-  background-color: rgba(0, 0, 0, 0.145);
+  background-color: rgba(0, 0, 0, 0.542);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,7 +150,7 @@
 }
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -159,12 +159,15 @@ header {
   align-items: center;
   padding: 5px 100px;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.118);
+  /* background-color: #151320af; */
+  background-color: rgb(211, 211, 211);
+  z-index: 1000000;
 }
 
 .logo {
   position: relative;
-  width: 10rem;
+  top: 3px;
+  width: 7.5rem;
   z-index: 10000;
 }
 
@@ -175,6 +178,46 @@ header .toggle {
 
 header .toggle img {
   max-width: 100%;
+}
+
+.top-logo-phone {
+  position: relative;
+  top: 0px;
+  color: rgba(33, 21, 21, 0.802);
+  font-size: 1.5rem;
+}
+
+.header-info {
+  position: relative;
+  top: -4px;
+  left: 6rem;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.instagram {
+  color: #c13584;
+}
+
+.top-logo-twitter {
+  position: relative;
+  left: 2rem;
+  font-size: 2rem;
+  top: 4px;
+}
+.top-logo-instagram {
+  position: relative;
+  left: 4rem;
+  font-size: 2rem;
+  top: 4px;
+}
+
+.top-text {
+  position: relative;
+  font-size: 1.2rem;
+  right: -0.5rem;
 }
 
 /* NAVIGATIONN ENDS HERE */
