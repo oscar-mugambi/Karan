@@ -1056,20 +1056,23 @@ footer span {
 
 /* FOOTER ENDS HERE */
 
-@media (max-width: 1400px) {
+@media (max-width: 1350px) {
   .body {
-    margin-top: 3rem;
     position: relative;
-    height: 65vh;
+    height: 100vh;
+  }
+
+  .title-1 {
+    margin-bottom: 50px;
   }
 
   .swiper-container {
-    height: 500px;
+    height: 600px;
     width: 900px;
   }
   .content h2 {
-    margin-top: 3rem;
-    font-size: 30px;
+    margin-top: 2rem;
+    font-size: 40px;
   }
 
   .content h2,
@@ -1077,6 +1080,10 @@ footer span {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 300;
+  }
+
+  .content p {
+    font-size: 30px;
   }
 }
 
@@ -1110,5 +1117,56 @@ footer span {
 
   .banner .sci {
     left: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .body {
+    height: 90vh;
+  }
+
+  .swiper-container {
+    height: 600px;
+    width: 700px;
+  }
+}
+@media (max-width: 750px) {
+  .body {
+    height: 90vh;
+  }
+
+  .swiper-container {
+    height: 600px;
+    width: 600px;
+  }
+}
+@media (max-width: 650px) {
+  .body {
+    height: 90vh;
+  }
+
+  .swiper-container {
+    height: 600px;
+    width: 400px;
+  }
+}
+@media (max-width: 550px) {
+  .body {
+    height: 90vh;
+  }
+
+  .swiper-container {
+    height: 600px;
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .body {
+    height: 90vh;
+  }
+
+  .swiper-container {
+    height: 600px;
+    width: 100px;
   }
 }
