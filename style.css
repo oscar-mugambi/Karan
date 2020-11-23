@@ -657,23 +657,20 @@ header .toggle img {
 
 .box-1::before,
 .box-1::after {
-  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
-  background: #833ab4; /* fallback for old browsers */
+  background: #5f2c82; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
+    #49a09d,
+    #5f2c82
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
+    #49a09d,
+    #5f2c82
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.box-1 .content {
+.box-1 .content-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -682,14 +679,14 @@ header .toggle img {
   color: #fff;
 }
 
-.content h2 {
+.content-1 h2 {
   margin-top: 3rem;
   font-size: 30px;
   font-weight: 200;
 }
 
-.content h2,
-.content p {
+.content-1 h2,
+.content-1 p {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 300;
@@ -909,7 +906,7 @@ footer span {
 }
 .main-content .box {
   flex-basis: 50%;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 
 .box {
@@ -1087,6 +1084,17 @@ footer span {
 
   .content p {
     font-size: 30px;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
   }
 }
 
