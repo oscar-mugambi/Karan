@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --overlay-color: rgba(24, 39, 51, 0.95);
   --menu-speed: 0.75s;
 }
 
@@ -1023,23 +1023,25 @@ footer span {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
-  footer {
-    position: relative;
-    bottom: 0px;
-  }
-  .main-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box {
-    margin: 5px 0;
-  }
-}
-
 /* FOOTER ENDS HERE */
 
 @media (max-width: 1350px) {
+  .header-info {
+    left: 1rem;
+  }
+  .top-logo-phone {
+    font-size: 2rem;
+  }
+
+  .top-text {
+    font-size: 1.8rem;
+  }
+
+  .top-logo-twitter,
+  .top-logo-instagram {
+    font-size: 2.5rem;
+  }
+
   .body {
     position: relative;
     height: 70vh;
@@ -1112,6 +1114,20 @@ footer span {
 
   .banner .sci {
     left: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
   }
 }
 
