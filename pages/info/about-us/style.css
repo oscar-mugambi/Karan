@@ -173,7 +173,7 @@ body {
 .logo {
   position: relative;
   top: 3px;
-  width: 7.5rem;
+  width: 8rem;
   z-index: 10000;
 }
 
@@ -194,7 +194,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 100px;
+  padding: 15px 100px;
   z-index: 1000;
   /* background-color: #151320af; */
   background-color: rgb(211, 211, 211);
@@ -524,6 +524,36 @@ footer {
 }
 .bottom center a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1350px) {
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 3rem;
+    padding: 2rem 2rem;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .header-info {
+    left: -3rem;
+    top: -6px;
+  }
+  .top-logo-phone {
+    font-size: 2rem;
+  }
+
+  .top-text {
+    font-size: 1.8rem;
+  }
+
+  .top-logo-twitter,
+  .top-logo-instagram {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 900px) {

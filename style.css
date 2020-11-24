@@ -91,8 +91,8 @@
   right: 0;
   z-index: 2;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   opacity: 0;
 }
 
@@ -1029,8 +1029,8 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 3rem;
+    padding: 2rem 2rem;
   }
 
   .logo {
