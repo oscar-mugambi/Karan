@@ -103,11 +103,11 @@
   top: 0px;
   right: 0;
   z-index: 1;
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
   padding: 1rem;
   /* background: var(--primary-color); */
-  background-color: rgba(0, 0, 0, 0.542);
+  background-color: rgba(0, 0, 0, 0.672);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,7 +191,7 @@
 .menu-wrap .menu > div {
   background: var(--overlay-color);
   width: 200vw;
-  height: 200vw;
+  height: 250vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -1048,7 +1048,7 @@ footer span {
   }
 
   .menu-wrap {
-    top: -4px;
+    top: -9px;
   }
 
   .body {
