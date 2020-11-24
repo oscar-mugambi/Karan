@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --overlay-color: rgba(24, 39, 51, 0.95);
   --menu-speed: 0.75s;
 }
 
@@ -128,9 +128,8 @@
 
 .menu-wrap .menu > div {
   background: var(--overlay-color);
-  border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 250vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -386,7 +385,13 @@ footer {
   bottom: 0px;
   width: 100%;
   background: #111;
-  padding: 80px;
+  padding: 90px;
+}
+
+footer h2,
+footer p,
+footer span {
+  color: rgb(158, 158, 158);
 }
 
 .main-content {
@@ -394,13 +399,12 @@ footer {
 }
 .main-content .box {
   flex-basis: 50%;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 .box h2 {
-  font-size: 1.125rem;
-  font-weight: 300;
+  font-size: 1.325rem;
+  font-weight: 400;
   text-transform: uppercase;
-  color: white;
 }
 .box .content {
   margin: 20px 0 0 0;
@@ -526,6 +530,10 @@ footer {
   text-decoration: underline;
 }
 
+.main-content-1 {
+  display: none;
+}
+
 @media (max-width: 1350px) {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
@@ -554,6 +562,57 @@ footer {
   .top-logo-instagram {
     font-size: 2.5rem;
   }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    /* background: var(--primary-color); */
+    background-color: rgba(0, 0, 0, 0.672);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-wrap .toggler {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .pic {
+    display: none !important;
+  }
+
+  .about .contentBx {
+    min-width: 90%;
+    text-align: center;
+  }
+
+  .about .imgBx {
+    display: none;
+  }
+  .main-content-large {
+    display: none;
+  }
+
+  .main-content-1 {
+    display: inline;
+  }
+
+  .main-content .box {
+    box-sizing: border-box;
+
+    /* padding: 10px 20px; */
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -561,12 +620,15 @@ footer {
     position: relative;
     bottom: 0px;
   }
-  .main-content {
+  /* .main-content {
     flex-wrap: wrap;
     flex-direction: column;
-  }
+  } */
   .main-content .box {
     margin: 5px 0;
+  }
+  footer .main-content {
+    display: block;
   }
 }
 
