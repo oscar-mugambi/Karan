@@ -190,7 +190,6 @@
 
 .menu-wrap .menu > div {
   background: var(--overlay-color);
-  border-radius: 50%;
   width: 200vw;
   height: 200vw;
   display: flex;
@@ -212,7 +211,7 @@
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
@@ -875,7 +874,7 @@ footer {
   bottom: 0px;
   background: #111;
   padding: 4rem 0;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 footer h2,
