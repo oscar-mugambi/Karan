@@ -130,7 +130,7 @@
   background: var(--overlay-color);
   border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 250vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -150,8 +150,8 @@
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -565,6 +565,10 @@ footer {
 }
 .bottom center a:hover {
   text-decoration: underline;
+}
+
+.main-content-1 {
+  display: none;
 }
 
 @media screen and (max-width: 900px) {
