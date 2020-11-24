@@ -100,11 +100,11 @@
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0px;
+  top: 3px;
   right: 0;
   z-index: 1;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   padding: 1rem;
   /* background: var(--primary-color); */
   background-color: rgba(0, 0, 0, 0.672);
@@ -346,7 +346,7 @@ header .toggle img {
 .banner .textBox h2 {
   color: #fff;
   font-size: 3em;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .banner .textBox p {
@@ -1158,6 +1158,25 @@ footer span {
   .swiper-container {
     height: 600px;
     width: 600px;
+  }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    padding: 1rem;
+    /* background: var(--primary-color); */
+    background-color: rgba(0, 0, 0, 0.672);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner .textBox a {
+    font-size: 2em;
   }
 }
 @media (max-width: 650px) {
