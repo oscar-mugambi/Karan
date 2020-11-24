@@ -211,7 +211,7 @@
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
@@ -1026,6 +1026,13 @@ footer span {
 /* FOOTER ENDS HERE */
 
 @media (max-width: 1350px) {
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
   .logo {
     width: 10rem;
   }
