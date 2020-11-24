@@ -1026,15 +1026,20 @@ footer span {
 /* FOOTER ENDS HERE */
 
 @media (max-width: 1350px) {
+  .logo {
+    width: 10rem;
+  }
+
   .header-info {
     left: 1rem;
+    top: -6px;
   }
   .top-logo-phone {
     font-size: 2rem;
   }
 
   .top-text {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .top-logo-twitter,
