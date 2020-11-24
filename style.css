@@ -1047,10 +1047,6 @@ footer span {
     font-size: 2.5rem;
   }
 
-  .menu-wrap {
-    top: -9px;
-  }
-
   .body {
     position: relative;
     height: 70vh;
@@ -1090,6 +1086,25 @@ footer span {
 
   .content .text-info {
     font-size: 18px;
+  }
+
+  .menu-wrap {
+    top: -9px;
+  }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    /* background: var(--primary-color); */
+    background-color: rgba(0, 0, 0, 0.672);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -1150,7 +1165,7 @@ footer span {
     width: 700px;
   }
 }
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .body {
     height: 40vh;
   }
@@ -1158,21 +1173,6 @@ footer span {
   .swiper-container {
     height: 600px;
     width: 600px;
-  }
-
-  .menu-wrap .hamburger {
-    position: absolute;
-    top: 3px;
-    right: 0;
-    z-index: 1;
-    width: 70px;
-    height: 70px;
-    padding: 1rem;
-    /* background: var(--primary-color); */
-    background-color: rgba(0, 0, 0, 0.672);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .banner .textBox a {
