@@ -435,7 +435,7 @@ footer {
   display: flex;
 }
 .main-content .box {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   padding: 10px 20px;
 }
 .box h2 {
@@ -572,22 +572,25 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  footer {
+  /* footer {
     position: relative;
     bottom: 0px;
-  }
-  .main-content {
+  } */
+  /* .main-content {
     flex-wrap: wrap;
     flex-direction: column;
-  }
-  .main-content .box {
+  } */
+  /* .main-content .box {
     margin: 5px 0;
-  }
+  } */
 }
 
 /* FOOTER ENDS HERE */
 
 @media (max-width: 767px) {
+  .footer-large {
+    display: none;
+  }
   section {
     padding: 40px;
   }

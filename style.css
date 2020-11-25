@@ -885,18 +885,16 @@ footer span {
 
 .main-content {
   display: flex;
+  flex-direction: row;
 }
 
 .main-content .box {
-  flex-basis: 50%;
-  /* padding: 10px 20px; */
+  width: 100%;
 }
 
 .box {
   margin-left: 1rem;
 }
-
-/* this */
 
 .box h2 {
   font-size: 1.325rem;
@@ -914,7 +912,6 @@ footer span {
   height: 2px;
   width: 100%;
   background: #1a1a1a;
-  /* background: #1a1a1a; */
 }
 .box .content:after {
   position: absolute;
@@ -962,11 +959,7 @@ footer span {
 .center .content .fas:hover {
   background: #f12020;
 }
-/* .center .content .text {
-  font-size: 23px;
-  font-weight: 300;
-  padding-left: 10px;
-} */
+
 .center .content .phone {
   margin: 15px 0;
 }
@@ -1088,7 +1081,7 @@ footer span {
   }
   .main-content {
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
   }
   .main-content .box {
     margin: 5px 0;
@@ -1156,10 +1149,7 @@ footer span {
     position: relative;
     bottom: 0px;
   }
-  .main-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+
   .main-content .box {
     margin: 5px 0;
   }
