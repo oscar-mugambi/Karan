@@ -13,6 +13,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
+
 /* NAIGATION STARTS HERE */
 
 /* NAIGATION ENDS HERE */
@@ -897,7 +898,7 @@ footer span {
 }
 
 .box h2 {
-  font-size: 1.325rem;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1148,6 +1149,10 @@ footer span {
   footer {
     position: relative;
     bottom: 0px;
+  }
+
+  .box h2 {
+    font-size: 23px !important;
   }
 
   .main-content .box {

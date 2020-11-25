@@ -17,6 +17,7 @@
 body {
   background: #0a2a43;
   min-height: 1500px;
+  position: relative;
 }
 
 header {
@@ -485,7 +486,7 @@ footer span {
   }
 
   .logo {
-    width: 10rem;
+    width: 5rem;
   }
 
   .header-info {
@@ -524,18 +525,6 @@ footer span {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 300;
-  }
-
-  footer {
-    position: relative;
-    bottom: 0px;
-  }
-  .main-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box {
-    margin: 5px 0;
   }
 
   .content .text-info {
@@ -601,6 +590,14 @@ footer span {
     bottom: 0px;
   }
 
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .main-content .box {
     margin: 5px 0;
   }
