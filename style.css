@@ -771,7 +771,7 @@ header .toggle img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 100vh;
+  max-height: 100vh;
   background: #242529;
 }
 
@@ -1055,6 +1055,10 @@ footer span {
     width: 50px;
     margin-right: 40px;
     font-size: 70px;
+  }
+
+  .fas {
+    margin-right: 30px;
   }
 }
 
