@@ -895,7 +895,6 @@ footer span {
   font-weight: 400;
   text-transform: uppercase;
 }
-
 .box .content {
   margin: 20px 0 0 0;
   position: relative;
@@ -1045,6 +1044,10 @@ footer span {
 
   .banner .sci {
     left: 50px;
+  }
+
+  .title-footer {
+    font-weight: 600;
   }
 }
 
