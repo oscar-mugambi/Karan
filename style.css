@@ -1049,6 +1049,13 @@ footer span {
   .title-footer {
     font-weight: 600;
   }
+
+  .left .content .social a span {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    font-size: 70px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -1092,6 +1099,7 @@ footer span {
   .main-content h2 {
     margin-top: 2rem;
     font-size: 40px;
+    font-weight: 400 !important;
   }
 
   .main-content h2,
@@ -1109,7 +1117,7 @@ footer span {
     flex-direction: row;
   }
   .main-content .box {
-    margin: 25px 0;
+    margin: 0 0 50px 0;
   }
 
   .content .text-info {
