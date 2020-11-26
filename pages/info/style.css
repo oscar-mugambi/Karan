@@ -308,6 +308,7 @@ header .toggle img {
 .travel {
   position: relative;
   margin: auto;
+  padding: 0 5rem;
 }
 
 .to-know {
@@ -480,12 +481,12 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 1rem 2rem;
   }
 
   .logo {
-    width: 5rem;
+    width: 8rem;
   }
 
   .header-info {
@@ -531,7 +532,7 @@ footer span {
   }
 
   .menu-wrap {
-    top: -9px;
+    top: -3px;
   }
 
   .menu-wrap .hamburger {
@@ -602,15 +603,8 @@ footer span {
     margin: 5px 0;
   }
 
-  .moving-images {
-    display: none;
-  }
-
   .kenya {
     margin-top: 10rem;
-    padding: 0 2rem;
-  }
-
-  .kenya {
+    padding: 0 4rem;
   }
 }
