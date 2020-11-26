@@ -190,7 +190,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 100px;
+  padding: 10px 100px;
   z-index: 1000;
   /* background-color: #151320af; */
   background-color: rgb(211, 211, 211);
@@ -442,6 +442,10 @@ footer {
   }
 }
 @media screen and (max-width: 900px) {
+  .header {
+    padding: 5rem 0;
+  }
+
   footer {
     position: relative;
     bottom: 0px;
