@@ -318,6 +318,7 @@ header .toggle img {
 
 .to-know li {
   margin: 1.5rem;
+  margin-bottom: 3rem;
   font-size: 17px;
 }
 
@@ -481,7 +482,7 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 1rem 2rem;
   }
 
