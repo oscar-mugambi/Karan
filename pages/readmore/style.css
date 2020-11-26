@@ -213,7 +213,7 @@ header {
 .header-info {
   position: relative;
   top: -4px;
-  left: 6rem;
+  left: 2rem;
 }
 
 .twitter {
@@ -292,6 +292,8 @@ footer {
 
 .main-content {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .main-content .box {
   flex-basis: 50%;
@@ -425,20 +427,6 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
-  footer {
-    position: relative;
-    bottom: 0px;
-  }
-  .main-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box {
-    margin: 5px 0;
-  }
-}
-
 /* FOOTER ENDS HERE */
 
 @media (max-width: 1300px) {
@@ -453,8 +441,25 @@ footer {
     right: 0;
   }
 }
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+}
 
 @media (max-width: 767px) {
+  .large-footer {
+    visibility: hidden;
+  }
+
   /* section {
     padding: 40px;
   }
