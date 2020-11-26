@@ -412,6 +412,10 @@ footer span {
   padding-bottom: 6rem;
 }
 
+.fas {
+  margin-right: 31px;
+}
+
 .box h2 {
   font-weight: 400;
   text-transform: uppercase;
@@ -670,5 +674,18 @@ footer span {
 
   .btn {
     margin-bottom: 30px;
+  }
+
+  .left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
   }
 }
