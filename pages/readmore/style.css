@@ -169,7 +169,7 @@ body {
 .logo {
   position: relative;
   top: 3px;
-  width: 7.5rem;
+  width: 10rem;
   z-index: 10000;
 }
 
@@ -239,7 +239,7 @@ header {
 
 .top-text {
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   right: -0.5rem;
 }
 
@@ -275,7 +275,7 @@ header {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 /* ONLINE TUTS ENDS HERE */
@@ -457,11 +457,27 @@ footer {
   .main-content .box {
     margin: 5px 0;
   }
+
+  .logo {
+    width: 20rem;
+  }
 }
 
 @media (max-width: 767px) {
   .large-footer {
     visibility: hidden;
+  }
+
+  .top-text {
+    font-size: 2rem;
+  }
+
+  .p-1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: red;
   }
 
   /* section {
