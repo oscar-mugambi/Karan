@@ -480,8 +480,8 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 3rem;
-    padding: 2rem 2rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
   }
 
   .logo {
@@ -554,6 +554,7 @@ footer span {
   header {
     padding: 20px 50px;
   }
+
   .banner {
     padding: 150px 50px 0;
     flex-direction: column;
