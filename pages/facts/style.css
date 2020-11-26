@@ -239,6 +239,9 @@ header .toggle img {
 
 .background-img {
   position: absolute;
+  background-position: center;
+  background-size: cover;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -549,3 +552,13 @@ footer span {
 }
 
 /* FOOTER ENDS HERE*/
+
+@media screen and (max-width: 1000px) {
+  .background-img {
+    display: none;
+  }
+
+  body {
+    background: linear-gradient(to right, #232526, #414345);
+  }
+}

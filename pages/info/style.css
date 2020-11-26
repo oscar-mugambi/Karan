@@ -308,7 +308,6 @@ header .toggle img {
 .travel {
   position: relative;
   margin: auto;
-  padding: 0 10rem;
 }
 
 .to-know {
@@ -318,7 +317,7 @@ header .toggle img {
 
 .to-know li {
   margin: 1.5rem;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 /* NEED TO KNOW ENDS HERE */
@@ -600,5 +599,17 @@ footer span {
   }
   .main-content .box {
     margin: 5px 0;
+  }
+
+  .moving-images {
+    display: none;
+  }
+
+  .kenya {
+    margin-top: 10rem;
+    padding: 0 2rem;
+  }
+
+  .kenya {
   }
 }
