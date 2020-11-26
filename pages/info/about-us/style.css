@@ -412,10 +412,6 @@ footer span {
   padding-bottom: 6rem;
 }
 
-.fas {
-  margin-right: 31px;
-}
-
 .box h2 {
   font-weight: 400;
   text-transform: uppercase;
@@ -546,8 +542,17 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 2rem 2rem;
+  }
+
+  .left .content .social a span {
+    font-size: 58px;
+    margin-right: 20px;
+  }
+
+  .space-icon {
+    margin-right: 26px;
   }
 
   .logo {
