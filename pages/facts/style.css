@@ -561,4 +561,35 @@ footer span {
   body {
     background: linear-gradient(to right, #232526, #414345);
   }
+
+  header {
+    padding: 5px 10px;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  .top-logo-phone {
+    top: -2px;
+    left: -6rem;
+    font-size: 1rem;
+  }
+
+  .top-text {
+    left: -92px;
+    font-size: 1rem;
+  }
+  .top-logo-twitter {
+    position: relative;
+    left: -5rem;
+    font-size: 1.5rem;
+    top: 1px;
+  }
+  .top-logo-instagram {
+    position: relative;
+    left: -5rem;
+    font-size: 1.5rem;
+    top: 1px;
+  }
 }
