@@ -245,7 +245,7 @@ header {
 .logo {
   position: relative;
   top: 3px;
-  width: 7.5rem;
+  width: 8.5rem;
   z-index: 10000;
 }
 
@@ -1059,6 +1059,13 @@ footer span {
 
   .fas {
     margin-right: 30px;
+  }
+
+  .content-1 h2 {
+    font-size: 40px;
+  }
+  .content-1 p {
+    font-size: 30px;
   }
 }
 
