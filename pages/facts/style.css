@@ -568,6 +568,7 @@ footer span {
 
   .logo {
     width: 4rem;
+    top: 4px;
   }
 
   .top-logo-phone {
@@ -591,5 +592,16 @@ footer span {
     left: -5rem;
     font-size: 1.5rem;
     top: 1px;
+  }
+  .header-info {
+    left: 5rem;
+    top: -1px;
+  }
+
+  .menu-wrap .hamburger {
+    padding: 0.6rem;
+    width: 43px;
+    height: 43px;
+    top: 11px;
   }
 }
