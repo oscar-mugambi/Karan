@@ -522,7 +522,7 @@ header .toggle img {
 }
 .container {
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
 }
 .container img {
   width: 100%;
