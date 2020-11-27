@@ -833,6 +833,11 @@ header .toggle img {
   text-align: center;
 }
 
+.new-content h3,
+.new-content p {
+  font-weight: 400;
+}
+
 .new-content h2 {
   position: absolute;
   top: -10px;
@@ -842,16 +847,16 @@ header .toggle img {
 }
 
 .new-content h3 {
-  font-size: 1.8em;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.9em;
+  color: rgba(255, 255, 255, 0.6);
   z-index: 1;
   transition: 0.5s;
 }
 
 .new-content p {
-  font-size: 1em;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
   z-index: 1;
   transition: 0.5s;
 }
