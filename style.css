@@ -1033,8 +1033,16 @@ footer span {
   }
 
   .top-text {
-    font-size: 20px;
+    font-size: 22px;
     right: 0px;
+  }
+
+  .top-logo-instagram {
+    font-size: 40px;
+  }
+
+  .top-logo-twitter {
+    font-size: 40px;
   }
 
   .banner {
@@ -1093,7 +1101,7 @@ footer span {
   }
 
   .header-info {
-    left: -3rem;
+    left: -9px;
     top: -6px;
   }
 
