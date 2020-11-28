@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --overlay-color: rgba(24, 39, 51, 0.95);
   --menu-speed: 0.75s;
 }
 
@@ -313,7 +313,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .about {
@@ -574,7 +574,7 @@ footer {
 
 @media screen and (max-width: 1100px) {
   header {
-    padding: 10px 50px;
+    padding: 15px 50px;
   }
   .logo {
     width: 8rem;
@@ -583,9 +583,17 @@ footer {
     left: 0;
   }
 
+  .top-logo-twitter {
+    top: 2px;
+  }
+
   .menu-wrap .menu > div > div > ul > li {
     font-size: 38px;
     padding-bottom: 2rem;
+  }
+
+  .mxw800p p {
+    font-size: 19px;
   }
 }
 
@@ -609,13 +617,13 @@ footer {
     flex-direction: column;
   }
 
-  .about .contentBx,
+  /* .about .contentBx,
   .about .imgBx {
     min-width: 100%;
     width: 100%;
     text-align: center;
     padding-right: 40px;
-  }
+  } */
 
   .about .imgBx {
     min-height: 250px;
