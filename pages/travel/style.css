@@ -584,7 +584,7 @@ footer {
   }
 
   .box h2 {
-    font-size: 2.125rem;
+    font-size: 40px;
   }
 
   .logo {
@@ -629,7 +629,6 @@ footer {
   .main-content {
     display: flex;
     flex-direction: column;
-    background-color: #00acee;
   }
 
   /* .about .contentBx,
