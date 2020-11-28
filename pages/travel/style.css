@@ -316,6 +316,10 @@ header {
   opacity: 0.3;
 }
 
+.text-info {
+  color: #fff;
+}
+
 .about {
   position: relative;
   width: 100%;
@@ -488,6 +492,7 @@ footer {
   transition: 0.3s;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  color: #fff;
 }
 .left .content .social a span:hover {
   background: #f12020;
@@ -502,7 +507,9 @@ footer {
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
+  color: #fff;
 }
+
 .center .content .fas:hover {
   background: #f12020;
 }
@@ -606,6 +613,28 @@ footer {
 
   .mxw800p p {
     font-size: 21px;
+  }
+
+  .text-info {
+    font-size: 30px;
+  }
+
+  .box {
+    margin-bottom: 3rem;
+  }
+
+  .left .content .social a span {
+    position: relative;
+    font-size: 60px;
+  }
+
+  .a-tags {
+    margin-right: 20px;
+  }
+
+  .place .fas,
+  .email .fas {
+    color: #fff;
   }
 }
 
