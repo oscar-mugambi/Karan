@@ -595,7 +595,7 @@ footer {
   }
 
   .logo {
-    width: 8rem;
+    width: 9rem;
   }
 
   .header-info {
@@ -615,12 +615,17 @@ footer {
   }
 
   .menu-wrap .menu > div > div > ul > li {
-    font-size: 38px;
+    font-size: 41px;
     padding-bottom: 2rem;
   }
 
+  .banner .content p {
+    font-size: 34px;
+  }
+
   .mxw800p p {
-    font-size: 21px;
+    font-size: 34px;
+    line-height: 63px;
   }
 
   .text-info {
