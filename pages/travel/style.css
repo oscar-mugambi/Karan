@@ -213,7 +213,7 @@ body {
 
 .top-text {
   position: relative;
-  font-size: 27px !important;
+  font-size: 27px;
   right: -0.5rem;
   color: black !important;
   font-weight: 300;
@@ -236,7 +236,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 100px;
+  padding: 5px 100px;
   z-index: 1000;
   /* background-color: #151320af; */
   background-color: rgb(211, 211, 211);
@@ -434,10 +434,12 @@ footer {
 
 .main-content {
   display: flex;
+  flex-direction: row;
 }
 .main-content .box {
   /* flex-basis: 50%; */
   padding: 10px 20px;
+  width: 100%;
 }
 .box h2 {
   font-size: 1.125rem;
@@ -572,13 +574,23 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   header {
     padding: 15px 50px;
   }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .box h2 {
+    font-size: 2.125rem;
+  }
+
   .logo {
     width: 8rem;
   }
+
   .header-info {
     left: 0;
   }
@@ -600,21 +612,24 @@ footer {
 /* FOOTER ENDS HERE */
 
 @media (max-width: 767px) {
-  .footer-large {
-    display: none;
-  }
   section {
     padding: 40px;
   }
   .banner .content h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
   .banner .content p {
-    font-size: 21px;
+    font-size: 30px;
   }
 
   .about {
     flex-direction: column;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #00acee;
   }
 
   /* .about .contentBx,
@@ -631,5 +646,9 @@ footer {
 
   .btn {
     margin-bottom: 30px;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
   }
 }
