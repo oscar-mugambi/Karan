@@ -270,7 +270,7 @@ header .toggle img {
 .header-info {
   position: relative;
   top: -4px;
-  left: 6rem;
+  left: 2.4rem;
 }
 
 .twitter {
@@ -283,21 +283,23 @@ header .toggle img {
 
 .top-logo-twitter {
   position: relative;
-  left: 2rem;
+  right: -53px;
   font-size: 2rem;
   top: 4px;
 }
 .top-logo-instagram {
   position: relative;
-  left: 4rem;
+  margin-right: 15px;
   font-size: 2rem;
   top: 4px;
+  right: -30px;
 }
 
 .top-text {
   position: relative;
   font-size: 1.2rem;
   right: -0.5rem;
+  margin-right: 15px;
 }
 
 .banner {
@@ -1022,11 +1024,15 @@ footer span {
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
   header {
-    padding: 20px 50px;
+    padding: 3px 25px;
   }
 
   .logo {
-    width: 3rem;
+    width: 4rem;
+  }
+
+  .top-text {
+    font-size: 0.5rem;
   }
 
   .banner {
@@ -1092,17 +1098,9 @@ footer span {
     left: -3rem;
     top: -6px;
   }
+
   .top-logo-phone {
-    font-size: 2rem;
-  }
-
-  .top-text {
-    font-size: 1.8rem;
-  }
-
-  .top-logo-twitter,
-  .top-logo-instagram {
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
 
   .body {

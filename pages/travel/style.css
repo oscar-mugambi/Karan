@@ -25,16 +25,6 @@
   z-index: 1;
 }
 
-@media (max-width: 769px) {
-  body {
-    background-color: #1111;
-    z-index: 10000000000000000;
-  }
-  .banner {
-    position: absolute;
-  }
-}
-
 .menu-wrap .toggler {
   position: relative;
   top: 0px;
