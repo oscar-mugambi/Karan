@@ -1044,6 +1044,7 @@ footer span {
   .top-logo-twitter {
     font-size: 40px;
     right: -24px;
+    top: 6px;
   }
 
   .banner {
@@ -1097,7 +1098,7 @@ footer span {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 3rem;
+    font-size: 39px;
     padding: 2rem 2rem;
   }
 
