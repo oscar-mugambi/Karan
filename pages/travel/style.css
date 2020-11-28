@@ -602,8 +602,16 @@ footer {
     left: 0;
   }
 
+  .top-text {
+    font-size: 30px;
+  }
+
   .top-logo-twitter {
     top: 2px;
+    font-size: 38px;
+  }
+  .top-logo-phone {
+    top: -2px;
   }
 
   .menu-wrap .menu > div > div > ul > li {
