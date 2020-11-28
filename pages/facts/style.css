@@ -482,6 +482,7 @@ footer span {
   margin-bottom: 2px;
   color: #656565;
 }
+
 .right form .msg {
   margin-top: 10px;
 }
@@ -613,6 +614,11 @@ footer span {
   .top-logo-phone {
     font-size: 29px;
   }
+
+  .left .content .social a span {
+    font-size: 60px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -625,7 +631,7 @@ footer span {
     flex-direction: column;
   }
   .main-content .box {
-    margin: 5px 0;
+    margin: 20px 0rem;
   }
 
   .button {
