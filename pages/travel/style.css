@@ -582,6 +582,11 @@ footer {
   .header-info {
     left: 0;
   }
+
+  .menu-wrap .menu > div > div > ul > li {
+    font-size: 38px;
+    padding-bottom: 2rem;
+  }
 }
 
 /* FOOTER ENDS HERE */
@@ -618,9 +623,5 @@ footer {
 
   .btn {
     margin-bottom: 30px;
-  }
-
-  .menu-list {
-    font-size: 0px;
   }
 }
