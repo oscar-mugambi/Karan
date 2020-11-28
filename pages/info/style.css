@@ -16,6 +16,8 @@
 
 body {
   background: #0a2a43;
+  background: linear-gradient(to right, #16222a, #3a6073);
+
   min-height: 1500px;
   position: relative;
 }
@@ -294,6 +296,17 @@ header .toggle img {
 
 /* NEED TO KNOW */
 
+/* .kenya:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 1000000;
+  background: linear-gradient(to top, #111, transparent);
+} */
+
 .kenya h2,
 .travel h2 {
   position: relative;
@@ -314,12 +327,17 @@ header .toggle img {
 .to-know {
   color: #fff;
   z-index: 1000000000;
+  padding: 0 8rem;
 }
 
 .to-know li {
   margin: 1.5rem;
   margin-bottom: 3rem;
-  font-size: 17px;
+  font-size: 24px;
+}
+
+.text-info {
+  font-size: 23px;
 }
 
 /* NEED TO KNOW ENDS HERE */
@@ -354,7 +372,7 @@ footer span {
 }
 
 .box h2 {
-  font-size: 1.325rem;
+  font-size: 1.925rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -491,7 +509,7 @@ footer span {
   }
 
   .header-info {
-    left: -3rem;
+    left: -1rem;
     top: -6px;
   }
   .top-logo-phone {
@@ -529,7 +547,7 @@ footer span {
   }
 
   .content .text-info {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .menu-wrap {
@@ -549,6 +567,16 @@ footer span {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .to-know {
+    font-size: 20px;
+    padding: 2px 2px;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    font-size: 40px;
+    padding-bottom: 3rem;
   }
 }
 
@@ -601,7 +629,7 @@ footer span {
     flex-direction: column;
   }
   .main-content .box {
-    margin: 5px 0;
+    margin: 24px 0;
   }
 
   .kenya {

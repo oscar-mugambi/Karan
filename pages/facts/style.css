@@ -390,7 +390,8 @@ footer {
 
 footer h2,
 footer p,
-footer span {
+footer span,
+.fa-envelope-open-text:before {
   color: rgb(158, 158, 158);
 }
 
