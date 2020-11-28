@@ -221,6 +221,7 @@
 
 body {
   background: #111;
+  width: 100%;
 }
 
 /* COPY 2 */
@@ -1024,11 +1025,11 @@ footer span {
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
   header {
-    padding: 3px 25px;
+    padding: 3px 50px;
   }
 
   .logo {
-    width: 4rem;
+    width: 6rem;
   }
 
   .top-text {
