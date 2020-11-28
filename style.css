@@ -1043,6 +1043,7 @@ footer span {
 
   .top-logo-twitter {
     font-size: 40px;
+    right: -24px;
   }
 
   .banner {
@@ -1106,7 +1107,7 @@ footer span {
   }
 
   .top-logo-phone {
-    font-size: 25px;
+    font-size: 29px;
   }
 
   .body {
@@ -1151,7 +1152,7 @@ footer span {
   }
 
   .menu-wrap {
-    top: -5px;
+    top: -1px;
   }
 
   .menu-wrap .hamburger {
