@@ -1025,7 +1025,7 @@ footer span {
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
   header {
-    padding: 3px 50px;
+    padding: 10px 50px;
   }
 
   .logo {
@@ -1033,7 +1033,8 @@ footer span {
   }
 
   .top-text {
-    font-size: 0.5rem;
+    font-size: 20px;
+    right: 0px;
   }
 
   .banner {
@@ -1101,7 +1102,7 @@ footer span {
   }
 
   .top-logo-phone {
-    font-size: 1rem;
+    font-size: 30px;
   }
 
   .body {
