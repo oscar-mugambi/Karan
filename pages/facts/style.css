@@ -202,6 +202,11 @@ header .toggle img {
   left: 6rem;
 }
 
+.header-info-1 {
+  position: relative;
+  top: -7px;
+}
+
 .twitter {
   color: #00acee;
 }
@@ -566,7 +571,7 @@ footer span,
   }
 
   .top-logo-phone {
-    top: -2px;
+    top: 1px;
 
     font-size: 0.9rem;
   }
@@ -641,6 +646,9 @@ footer span,
   }
 
   .button {
+    display: none;
+  }
+  .hide {
     display: none;
   }
 }

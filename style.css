@@ -277,7 +277,6 @@ header .toggle img {
 .header-info-1 {
   display: flex;
   position: relative;
-  top: -3px;
 }
 
 .twitter {

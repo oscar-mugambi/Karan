@@ -615,7 +615,8 @@ footer {
     font-size: 38px;
   }
   .top-logo-phone {
-    top: -2px;
+    top: -1px;
+    font-size: 1.9rem;
   }
 
   .menu-wrap .menu > div > div > ul > li {
