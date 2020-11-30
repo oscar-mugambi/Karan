@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
 
 /* NAVIGATIONN STARTS HERE */
@@ -378,12 +379,12 @@ body {
 }
 .content1 .text {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 200;
   color: #202020;
 }
 .content1 p {
   font-size: 2.1875rem;
-  font-weight: 600;
+  font-weight: 200;
   color: #202020;
 }
 footer {
@@ -414,7 +415,7 @@ footer span,
 }
 .box h2 {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .box .content {
@@ -478,7 +479,7 @@ footer span,
 }
 .center .content .text {
   font-size: 1.0625rem;
-  font-weight: 500;
+
   padding-left: 10px;
 }
 .center .content .phone {
