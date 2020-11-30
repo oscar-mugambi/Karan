@@ -1096,10 +1096,10 @@ footer span {
   }
 
   .content-1 h2 {
-    font-size: 40px;
+    font-size: 39px;
   }
   .content-1 p {
-    font-size: 30px;
+    font-size: 29.5px;
   }
 }
 
@@ -1206,7 +1206,7 @@ footer span {
   }
 
   .swiper-container {
-    height: 730px;
+    height: 750px;
     width: 700px;
   }
 }

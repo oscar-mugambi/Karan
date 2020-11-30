@@ -218,7 +218,7 @@ header .toggle img {
 
 .top-logo-twitter {
   position: relative;
-  left: 2rem;
+  left: 1rem;
   font-size: 2rem;
   top: 4px;
 }
@@ -659,7 +659,7 @@ footer span,
     display: none;
   }
 
-  .top-logo-twitter {
+  .header-info .top-logo-twitter {
     left: 1rem;
   }
 }
