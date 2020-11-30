@@ -197,6 +197,7 @@ header .toggle img {
 
 .header-info {
   position: relative;
+
   top: -4px;
   left: 6rem;
 }
@@ -619,6 +620,10 @@ footer span,
   .left .content .social a span {
     font-size: 60px;
     padding-right: 50px;
+  }
+
+  .hide {
+    display: none;
   }
 }
 

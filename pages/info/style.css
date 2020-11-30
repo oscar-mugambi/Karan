@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,6 +44,11 @@ header {
   top: 3px;
   width: 7.5rem;
   z-index: 10000;
+}
+
+.header-info-1 {
+  position: relative;
+  display: flex;
 }
 
 header .toggle {
@@ -82,7 +87,7 @@ header .toggle img {
   position: relative;
   left: 2rem;
   font-size: 2rem;
-  top: 4px;
+  top: -2px;
 }
 .top-logo-instagram {
   position: relative;
@@ -296,16 +301,17 @@ header .toggle img {
 
 /* NEED TO KNOW */
 
-/* .kenya:before {
+.kenya::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 400px;
+  height: 100%;
   z-index: 1000000;
-  background: linear-gradient(to top, #111, transparent);
-} */
+  /* background: linear-gradient(to top, #111, #fff); */
+  mix-blend-mode: color;
+}
 
 .kenya h2,
 .travel h2 {
@@ -496,12 +502,16 @@ footer span {
 
 /* FOOTER ENDS HERE */
 
-@media (max-width: 1350px) {
+@media (max-width: 950px) {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
     font-size: 2rem;
     padding: 1rem 2rem;
+  }
+
+  .hide {
+    display: none;
   }
 
   .logo {

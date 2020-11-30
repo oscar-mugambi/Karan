@@ -268,10 +268,16 @@ header .toggle img {
   font-size: 1.5rem;
 }
 
-.header-info {
+/* .header-info {
   position: relative;
   top: -4px;
   left: 2.4rem;
+} */
+
+.header-info-1 {
+  display: flex;
+  position: relative;
+  top: -3px;
 }
 
 .twitter {
@@ -284,9 +290,9 @@ header .toggle img {
 
 .top-logo-twitter {
   position: relative;
-  right: -53px;
+  right: -18px;
   font-size: 2rem;
-  top: 4px;
+  top: -3px;
 }
 .top-logo-instagram {
   position: relative;
@@ -1028,6 +1034,10 @@ footer span {
     padding: 10px 50px;
   }
 
+  .hide {
+    display: none;
+  }
+
   .logo {
     width: 8rem;
   }
@@ -1044,7 +1054,7 @@ footer span {
   .top-logo-twitter {
     font-size: 40px;
     right: -24px;
-    top: 6px;
+    top: -4px;
   }
 
   .banner {
@@ -1197,7 +1207,7 @@ footer span {
   }
 
   .swiper-container {
-    height: 600px;
+    height: 730px;
     width: 700px;
   }
 }

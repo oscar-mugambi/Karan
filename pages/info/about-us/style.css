@@ -237,7 +237,7 @@ header {
   position: relative;
   left: 2rem;
   font-size: 2rem;
-  top: 4px;
+  top: -1px;
 }
 .top-logo-instagram {
   position: relative;
@@ -538,11 +538,19 @@ footer span {
   display: none;
 }
 
+.header-info-1 {
+  display: flex;
+  position: relative;
+}
+
 @media (max-width: 1010px) {
   header {
     padding: 20px 100px;
   }
 
+  .hide {
+    display: none;
+  }
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
@@ -567,6 +575,7 @@ footer span {
     left: -1rem;
     top: -6px;
   }
+
   .top-logo-phone {
     font-size: 2rem;
   }
