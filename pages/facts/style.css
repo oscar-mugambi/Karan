@@ -615,8 +615,8 @@ footer span,
     height: 600px;
   }
 
-  .content p {
-    font-size: 28px;
+  .card .content p {
+    font-size: 29px;
   }
 
   .top-logo-phone {
@@ -657,5 +657,9 @@ footer span,
 @media screen and (max-width: 500px) {
   .header-info-1 .hide {
     display: none;
+  }
+
+  .top-logo-twitter {
+    left: 1rem;
   }
 }
