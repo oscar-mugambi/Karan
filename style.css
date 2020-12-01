@@ -14,6 +14,39 @@
   font-weight: 300;
 }
 
+/* MENU */
+
+.menu {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 100000;
+}
+
+.line {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin: 3px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  transition: all 0.4s ease-in;
+  padding: 5px;
+  top: 7px;
+  margin-right: 5px;
+}
+
+/* MENU */
+
 /* NAIGATION STARTS HERE */
 
 /* NAIGATION ENDS HERE */
@@ -83,7 +116,7 @@
   position: relative;
   top: 0px;
   right: 0;
-  z-index: 2;
+  z-index: 200000;
   cursor: pointer;
   width: 60px;
   height: 60px;
