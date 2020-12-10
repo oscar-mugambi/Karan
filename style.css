@@ -312,11 +312,29 @@ header .toggle img {
   position: relative;
 }
 
-.twitter {
-  color: #00acee;
+.header-info-2 {
+  position: relative;
+  top: -5px;
+  color: rgb(48, 47, 47);
+}
+.header-info-2 .logo-header {
+  font-size: 1.3rem;
+}
+.header-info-2 .phone-number {
+  font-size: 1.3rem;
 }
 
-.instagram {
+.fa-twitter:before,
+.fa-instagram:before {
+  font-size: 1.5rem;
+}
+
+.twitter-header {
+  color: #00acee;
+  margin-right: 1rem;
+}
+
+.instagram-header {
   color: #c13584;
 }
 
