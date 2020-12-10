@@ -440,7 +440,7 @@ footer span,
   margin-left: 1rem;
 }
 .box h2 {
-  font-size: 1.125rem;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -599,6 +599,13 @@ footer .fa-instagram:before {
   footer .fa-twitter:before,
   footer .fa-instagram:before {
     font-size: 3.8rem;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    padding: 4rem 45px;
   }
 
   .fa-twitter:before,
