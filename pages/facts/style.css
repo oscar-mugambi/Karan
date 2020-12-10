@@ -581,11 +581,6 @@ footer span,
     font-size: 2rem;
   }
 
-  fa-envelope:before {
-    content: "\f0e0";
-    display: none;
-  }
-
   .hide {
     display: none;
   }
@@ -683,6 +678,9 @@ footer span,
 }
 
 @media screen and (max-width: 900px) {
+  .hide {
+    display: none;
+  }
   footer {
     position: relative;
     bottom: 0px;
@@ -704,6 +702,9 @@ footer span,
 }
 
 @media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
   .header-info-1 .hide {
     display: none;
   }
