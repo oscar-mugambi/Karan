@@ -544,12 +544,12 @@ footer .fa-instagram:before {
 
 @media (max-width: 950px) {
   .to-know li {
-    font-size: 17px;
+    font-size: 19px;
   }
 
   #text {
     margin-left: 2rem !important;
-    font-size: 6em;
+    font-size: 6.5em;
   }
 
   footer .fa-twitter:before,
