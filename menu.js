@@ -1,6 +1,7 @@
 const toggler = document.querySelector(".toggler");
 const navItems = document.querySelectorAll(".nav-item");
-const menu = document.querySelector(".menu")
+const menu = document.querySelector(".menu");
+const copyBtn = document.getElementById('copyBtn')
 
 
 let backButton = document.addEventListener('backbutton', function(){
@@ -17,3 +18,5 @@ navItems.forEach(item =>{
 function detoggle(){
   toggler.checked = false
 }
+
+

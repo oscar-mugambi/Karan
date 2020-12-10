@@ -365,11 +365,12 @@ header .toggle img {
 .to-know li {
   margin: 1.5rem;
   margin-bottom: 3rem;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .text-info {
-  font-size: 23px;
+  font-size: 18px;
 }
 
 /* NEED TO KNOW ENDS HERE */
@@ -404,7 +405,7 @@ footer span {
 }
 
 .box h2 {
-  font-size: 1.925rem;
+  font-size: 1.325rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -529,30 +530,53 @@ footer span {
 .top-text {
   margin-right: 1rem;
 }
+.fa-envelope-open-text:before {
+  content: "\f658";
+  color: rgb(157, 157, 157);
+}
+
+footer .fa-twitter:before,
+footer .fa-instagram:before {
+  font-size: 2.5rem;
+}
 
 /* FOOTER ENDS HERE */
 
 @media (max-width: 950px) {
+  .to-know li {
+    font-size: 17px;
+  }
+
+  #text {
+    margin-left: 2rem !important;
+    font-size: 6em;
+  }
+
+  footer .fa-twitter:before,
+  footer .fa-instagram:before {
+    font-size: 2.5rem;
+  }
+
   .fa-twitter:before,
   .fa-instagram:before {
     font-size: 2rem;
   }
 
   .header-info-2 .phone-number {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .hide {
     display: none;
   }
 
-  .fa-envelope:before {
+  .header-infp-2 .fa-envelope:before {
     content: "\f0e0";
     display: none;
   }
 
   .header-info-2 .logo-header {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   .menu-wrap .menu > div > div > ul > li {

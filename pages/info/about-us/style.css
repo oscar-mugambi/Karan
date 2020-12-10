@@ -319,7 +319,7 @@ header {
   position: relative;
   display: inline-block;
   margin-top: 30px;
-  padding: 10px 30px;
+  padding: 8px 8px;
   background: #fff;
   color: #333;
   text-decoration: none;
@@ -358,7 +358,7 @@ header {
 }
 
 .text {
-  color: #fff;
+  color: #9e9e9e;
   font-size: 1em;
 }
 
@@ -496,6 +496,7 @@ footer span {
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
+  color: #9e9e9e;
 }
 .center .content .fas:hover {
   background: #f12020;
@@ -572,11 +573,19 @@ footer span {
 .top-text {
   margin-right: 1rem;
 }
+footer .fa-twitter:before,
+footer .fa-instagram:before {
+  font-size: 2.5rem;
+}
 
 @media (max-width: 1010px) {
   .fa-twitter:before,
   .fa-instagram:before {
     font-size: 2.3rem;
+  }
+  footer .fa-twitter:before,
+  footer .fa-instagram:before {
+    font-size: 3.7rem;
   }
 
   .header-info-2 .phone-number {
@@ -587,7 +596,7 @@ footer span {
     display: none;
   }
 
-  .fa-envelope:before {
+  .header-info-2 .fa-envelope:before {
     content: "\f0e0";
     display: none;
   }

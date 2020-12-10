@@ -412,14 +412,15 @@ header .toggle img {
 .banner .textBox a {
   position: relative;
   display: inline-block;
-  background: #fff;
-  color: #111;
-  padding: 15px 25px;
+  background: rgb(255, 255, 255);
+  color: rgb(33, 33, 33);
+  padding: 8px 8px;
   text-decoration: none;
   font-size: 1.1em;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
 .banner .videoBx {
@@ -1078,10 +1079,35 @@ footer span {
   text-decoration: underline;
 }
 
+.intro-header {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+}
+
+footer .fa-twitter:before,
+footer .fa-instagram:before {
+  font-size: 2.5rem;
+}
+
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
-  .fa-twitter:before,
-  .fa-instagram:before,
+  footer .fa-twitter:before,
+  footer .fa-instagram:before {
+    font-size: 4.4rem;
+  }
+  .intro-header {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+    font-size: 2.2rem;
+  }
+
+  .header-info-2 .fa-twitter:before,
+  .header-info-2 .fa-instagram:before,
   .header-info-2 .logo-header {
     font-size: 2rem;
   }
