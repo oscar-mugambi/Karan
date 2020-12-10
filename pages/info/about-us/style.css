@@ -443,13 +443,13 @@ footer span {
   text-transform: uppercase;
 }
 .box .content {
-  margin: 20px 0 0 0;
+  margin: 35px 0 0 0;
   position: relative;
 }
 .box .content:before {
   position: absolute;
   content: "";
-  top: -10px;
+  top: -30px;
   height: 2px;
   width: 100%;
   background: #1a1a1a;
@@ -460,7 +460,7 @@ footer span {
   height: 2px;
   width: 15%;
   background: #f12020;
-  top: -10px;
+  top: -30px;
 }
 .left .content p {
   text-align: justify;
