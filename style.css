@@ -792,16 +792,16 @@ header .toggle img {
 }
 .box-7::before,
 .box-7::after {
-  background: #ff00cc; /* fallback for old browsers */
+  background: #136a8a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #333399,
-    #ff00cc
+    #267871,
+    #136a8a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #333399,
-    #ff00cc
+    #267871,
+    #136a8a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .box-8::before,
@@ -1068,7 +1068,7 @@ footer span {
 .box .content:before {
   position: absolute;
   content: "";
-  top: -10px;
+  top: -26px;
   height: 2px;
   width: 100%;
   background: #1a1a1a;
@@ -1079,7 +1079,7 @@ footer span {
   height: 2px;
   width: 15%;
   background: #f12020;
-  top: -10px;
+  top: -26px;
 }
 .left .content p {
   text-align: justify;

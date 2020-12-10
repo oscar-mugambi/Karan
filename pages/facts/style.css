@@ -451,7 +451,7 @@ footer span,
 .box .content:before {
   position: absolute;
   content: "";
-  top: -10px;
+  top: -26px;
   height: 2px;
   width: 100%;
   background: #1a1a1a;
@@ -463,7 +463,7 @@ footer span,
   height: 2px;
   width: 15%;
   background: #f12020;
-  top: -10px;
+  top: -26px;
 }
 .left .content p {
   text-align: justify;
