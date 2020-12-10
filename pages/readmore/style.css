@@ -38,11 +38,11 @@
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0px;
+  top: -4px;
   right: 0;
   z-index: 1;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   padding: 1rem;
   /* background: var(--primary-color); */
   background-color: rgba(0, 0, 0, 0.542);
@@ -473,7 +473,7 @@ footer {
   }
 
   .header-info-2 .phone-number {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .hide {
