@@ -208,6 +208,32 @@ header .toggle img {
   top: -7px;
 }
 
+.header-info-2 {
+  position: relative;
+  top: -5px;
+  color: rgb(48, 47, 47);
+}
+.header-info-2 .logo-header {
+  font-size: 1.3rem;
+}
+.header-info-2 .phone-number {
+  font-size: 1.3rem;
+}
+
+.fa-twitter:before,
+.fa-instagram:before {
+  font-size: 1.7rem;
+}
+
+.twitter-header {
+  color: #00acee;
+  margin-right: 1rem;
+}
+
+.instagram-header {
+  color: #c13584;
+}
+
 .twitter {
   color: #00acee;
 }
@@ -542,9 +568,27 @@ footer span,
   text-decoration: underline;
 }
 
+.top-text {
+  margin-right: 1rem;
+}
+
 /* FOOTER ENDS HERE*/
 
 @media screen and (max-width: 1000px) {
+  .fa-twitter:before,
+  .fa-instagram:before,
+  .header-info-2 .logo-header {
+    font-size: 2rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header-info-2 .logo-header {
+    font-size: 1.7rem;
+  }
+
   .background-img {
     display: none;
   }
