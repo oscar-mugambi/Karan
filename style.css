@@ -665,9 +665,6 @@ header .toggle img {
   justify-content: center;
   align-content: center;
   color: white;
-
-  background: #060c21;
-  padding: 1rem;
 }
 
 .box-1 .glass {
@@ -710,16 +707,119 @@ header .toggle img {
 
 .box-1::before,
 .box-1::after {
-  background: #5f2c82; /* fallback for old browsers */
+  background: #fc466b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #49a09d,
-    #5f2c82
+    #3f5efb,
+    #fc466b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #49a09d,
-    #5f2c82
+    #3f5efb,
+    #fc466b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box-2::before,
+.box-2::after {
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5bd,
+    #00d0ffb1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5c0,
+    #00d0ffa1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-3::before,
+.box-3::after {
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0576e6bd,
+    #00f261a3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0575e6,
+    #00f261a8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-4::before,
+.box-4::after {
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e100ffc2,
+    #8000ffce
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e100ffc4,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-5::before,
+.box-5::after {
+  background: #333333; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd1818,
+    #333333
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-6::before,
+.box-6::after {
+  background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-7::before,
+.box-7::after {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box-8::before,
+.box-8::after {
+}
+
+.box-9::before,
+.box-9::after {
+  background: #fceabb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f8b6007c,
+    #fceabb88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8b600c2,
+    #fceabb58
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -742,7 +842,7 @@ header .toggle img {
 .content-1 p {
   text-align: center;
   margin-bottom: 2rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 /* WHO CAN TRAVEL WITH US STARTS HERE */
@@ -1303,7 +1403,7 @@ footer .fa-instagram:before {
   }
 
   .swiper-container {
-    height: 600px;
+    height: 810px;
     width: 600px;
   }
 
@@ -1316,29 +1416,44 @@ footer .fa-instagram:before {
     height: 90vh;
   }
 
-  .swiper-container {
+  /* .swiper-container {
     height: 600px;
     width: 400px;
-  }
+  } */
 }
 @media (max-width: 550px) {
   .body {
     height: 90vh;
   }
 
-  .swiper-container {
+  /* .swiper-container {
     height: 600px;
     width: 300px;
-  }
+  } */
 }
 @media (max-width: 450px) {
   .body {
     height: 90vh;
   }
 
-  .swiper-container {
+  /* .swiper-container {
+    height: 700px !important;
+    width: 500px;
+  } */
+}
+
+@media (max-width: 380px) {
+  .body {
+    height: 50vh;
+  }
+
+  /* .swiper-container {
     height: 600px;
-    width: 100px;
+    width: 600px;
+  } */
+
+  .content-1 p {
+    font-size: 29.5px;
   }
 }
 @media (max-width: 370px) {
@@ -1346,7 +1461,8 @@ footer .fa-instagram:before {
     height: 50vh;
   }
 
-  .swiper-container {
+  /* .swiper-container {
     height: 600px;
-  }
+    width: 600px;
+  } */
 }

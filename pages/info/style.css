@@ -334,7 +334,7 @@ header .toggle img {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1000000;
+  z-index: 100;
   /* background: linear-gradient(to top, #111, #fff); */
   mix-blend-mode: color;
 }
