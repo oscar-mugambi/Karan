@@ -575,9 +575,12 @@ footer span {
 
 @media (max-width: 1010px) {
   .fa-twitter:before,
-  .fa-instagram:before,
-  .header-info-2 .logo-header {
-    font-size: 2rem;
+  .fa-instagram:before {
+    font-size: 2.3rem;
+  }
+
+  .header-info-2 .phone-number {
+    font-size: 1.7rem;
   }
 
   .hide {
@@ -590,7 +593,7 @@ footer span {
   }
 
   .header-info-2 .logo-header {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   header {
