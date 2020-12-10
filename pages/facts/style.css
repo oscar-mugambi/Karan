@@ -585,6 +585,11 @@ footer span,
     display: none;
   }
 
+  .fa-envelope:before {
+    content: "\f0e0";
+    display: none;
+  }
+
   .header-info-2 .logo-header {
     font-size: 1.7rem;
   }
