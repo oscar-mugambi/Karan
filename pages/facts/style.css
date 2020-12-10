@@ -581,6 +581,11 @@ footer span,
     font-size: 2rem;
   }
 
+  fa-envelope:before {
+    content: "\f0e0";
+    display: none;
+  }
+
   .hide {
     display: none;
   }
