@@ -225,6 +225,32 @@ header {
   left: 6rem;
 }
 
+.header-info-2 {
+  position: relative;
+  top: -5px;
+  color: rgb(48, 47, 47);
+}
+.header-info-2 .logo-header {
+  font-size: 1.3rem;
+}
+.header-info-2 .phone-number {
+  font-size: 1.3rem;
+}
+
+.fa-twitter:before,
+.fa-instagram:before {
+  font-size: 1.7rem;
+}
+
+.twitter-header {
+  color: #00acee;
+  margin-right: 1rem;
+}
+
+.instagram-header {
+  color: #c13584;
+}
+
 .twitter {
   color: #00acee;
 }
@@ -543,7 +569,30 @@ footer span {
   position: relative;
 }
 
+.top-text {
+  margin-right: 1rem;
+}
+
 @media (max-width: 1010px) {
+  .fa-twitter:before,
+  .fa-instagram:before,
+  .header-info-2 .logo-header {
+    font-size: 2rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .fa-envelope:before {
+    content: "\f0e0";
+    display: none;
+  }
+
+  .header-info-2 .logo-header {
+    font-size: 1.7rem;
+  }
+
   header {
     padding: 20px 100px;
   }
