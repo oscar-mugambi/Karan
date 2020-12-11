@@ -624,10 +624,10 @@ button {
 @media (max-width: 1010px) {
   #btnCopy {
     position: relative;
-    padding: 8px 5px;
+    padding: 7px 5px;
     font-weight: 500;
     color: rgb(31, 31, 31);
-    top: -3px;
+    top: -1px;
     font-size: 20px;
   }
 
@@ -662,7 +662,7 @@ button {
   .fa-instagram:before {
     position: relative;
     font-size: 2.8rem;
-    top: 9px;
+    top: 6px;
   }
   footer .fa-twitter:before,
   footer .fa-instagram:before {
