@@ -1214,7 +1214,9 @@ footer .fa-instagram:before {
   }
 
   .header-info-2 .logo-header {
-    font-size: 1.7rem;
+    position: relative;
+    font-size: 1.6rem;
+    top: 2px;
   }
 
   header {
@@ -1299,11 +1301,26 @@ footer .fa-instagram:before {
 .input-text {
   position: relative;
   display: inline-block;
-  top: -7px;
-  right: 5px;
+
+  right: 33px;
 }
 
 @media (max-width: 800px) {
+  #myInp {
+    width: 10rem;
+  }
+
+  .input-text {
+    font-size: 19px;
+  }
+
+  .input-text {
+    position: relative;
+    display: inline-block;
+    top: -7px;
+    right: 33px;
+  }
+
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
