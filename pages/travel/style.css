@@ -325,12 +325,12 @@ header {
   position: relative;
   display: inline-block;
   margin-top: 30px;
-  padding: 4px 6px;
+  padding: 4px 8px;
   background: #fff;
   color: #333;
   text-decoration: none;
   font-weight: 300 !important;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .fitBg {
@@ -461,7 +461,7 @@ footer {
   width: 100%;
   background: #111;
   padding: 4rem 0;
-  padding-left: 90px;
+  padding-left: 40px;
 }
 
 .main-content {
@@ -669,7 +669,7 @@ footer .fa-instagram:before {
   }
 
   .box h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .logo {
