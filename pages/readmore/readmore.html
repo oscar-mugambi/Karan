@@ -27,14 +27,20 @@
       </div> -->
 
       <div class="header-info-2">
-        <span class="fas fa-phone logo-header"></span> &nbsp;
-        <span class="phone-number">+254 783 902 252</span> &nbsp; &nbsp;
+        <div class="input-text">
+        <!-- <span class="fas fa-phone logo-header phone-logo-1"></span> &nbsp; -->
+        
+          <input type="text" id="myInp" value="+254 783 902 252" readonly>
+          <button id="btnCopy">Copy</button>
+          
+        </div>
+        <!-- <span class="phone-number" id="copyBtn">+254 783 902 252</span> &nbsp; &nbsp; -->
         <span class="fas fa-envelope logo-header hide"></span> 
         <span class="text top-text logo-header hide">info@karanafrica.com</span>
         <a class="logo-header" href="#"><span class="fab fa-twitter logo-header twitter-header"></span></a>
-        <a class="logo-header" href="#"><span class="fab fa-instagram logo-header instagram-header"></span></a>
+        <a class="logo-header" href="https://instagram.com/karan.africa?igshid=owrz6c75piyf"><span class="fab fa-instagram logo-header instagram-header"></span></a>
       </div>
-
+      <div class="copied-alert"><span class="span-copied"> Copied!</span></div>
 
       <div class="menu-wrap">
         <input type="checkbox" class="toggler">
@@ -44,10 +50,10 @@
             <div>
               <ul>
                 <li class="nav-item"><a href="/index.html">Home</a></li>
-                <li class="nav-item"><a href="/index.html#travel">Who Can travel With Us</a></li>
-                <li class="nav-item"><a href="/index.html#packages">Our Packages</a></li>
                 <li class="nav-item"><a href="../info/about-us/about.html">About Us</a></li>
                 <li class="nav-item"><a href="../travel/travel.html">Our Travels</a></li>
+                <li class="nav-item"><a href="/index.html#travel">Who Can travel With Us</a></li>
+                <li class="nav-item"><a href="/index.html#packages">Our Packages</a></li>
                 <li class="nav-item"><a href="../facts/facts.html">Facts About Africa</a></li>
                 <li class="nav-item"><a href="../info/info.html">Before You Travel</a></li>
               </ul>
@@ -187,5 +193,28 @@ tourism.
      </footer>   -->
    </div>
    <script src="../../menu.js"></script>
+
+   <script type="text/javascript">
+
+    const myInp = document.getElementById("myInp");
+    const btnCopy = document.getElementById("btnCopy");
+    const copyAlert = document.querySelector(".copied-alert")
+
+    btnCopy.addEventListener("click", ()=>{
+      
+      myInp.select();
+      document.execCommand("copy");
+      copyAlert.style.visibility = "visible"
+
+      setTimeout(function(){
+        copyAlert.style.visibility = "hidden"
+      },500)
+    
+    } );
+   
+  
+    
+
+  </script>
   </body>
 </html>
