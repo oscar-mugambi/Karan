@@ -649,8 +649,8 @@ header .toggle img {
 }
 
 .swiper-container {
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  max-width: 700px;
 }
 
 .swiper-slide {
@@ -1311,10 +1311,10 @@ button {
   } */
 
   .content-1 h2 {
-    font-size: 39px;
+    font-size: 32px;
   }
   .content-1 p {
-    font-size: 29.5px;
+    font-size: 25px;
   }
 }
 
