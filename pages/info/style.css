@@ -575,6 +575,36 @@ button {
 }
 
 @media (max-width: 950px) {
+  #btnCopy {
+    position: relative;
+    padding: 6px 5px;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+    top: -2px;
+  }
+
+  .input-text {
+    top: 0;
+    color: rgb(31, 31, 31);
+  }
+
+  #myInp {
+    width: 11rem;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2px;
+  }
+
+  .input-text {
+    font-size: 19px;
+  }
+
+  .input-text {
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    right: 33px;
+  }
   .to-know li {
     font-size: 19px;
   }
