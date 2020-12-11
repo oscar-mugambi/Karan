@@ -1227,15 +1227,15 @@ button {
   .intro-header {
     position: relative;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 0.4rem;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 
   .header-info-2 .fa-twitter:before,
   .header-info-2 .fa-instagram:before,
   .header-info-2 .logo-header {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .header-info-2 .logo-header {
@@ -1253,7 +1253,7 @@ button {
   }
 
   .logo {
-    width: 8rem;
+    width: 7.5rem;
   }
 
   .top-text {
@@ -1359,7 +1359,7 @@ button {
     position: relative;
     display: inline-block;
     top: -3px;
-    right: 33px;
+    right: 22px;
   }
 
   .menu-wrap .menu > div > div > ul > li {
@@ -1518,6 +1518,9 @@ button {
     height: 50vh;
   }
 
+  .logo {
+    width: 7rem;
+  }
   /* .swiper-container {
     height: 600px;
     width: 600px;
@@ -1537,6 +1540,10 @@ button {
   .fa-phone {
     content: "";
     display: none !important;
+  }
+
+  .logo {
+    width: 6rem;
   }
 
   /* .swiper-container {
