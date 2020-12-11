@@ -41,7 +41,11 @@
 
       <div class="header-info-2">
         <span class="fas fa-phone logo-header"></span> &nbsp;
-        <span class="phone-number" id="copyBtn">+254 783 902 252</span> &nbsp; &nbsp;
+        <div class="input-text">
+          <input type="text" id="myInp" value="+254 783 902 252" readonly>
+          <button id="btnCopy">Copy</button>
+        </div>
+        <!-- <span class="phone-number" id="copyBtn">+254 783 902 252</span> &nbsp; &nbsp; -->
         <span class="fas fa-envelope logo-header hide"></span> 
         <span class="text top-text logo-header hide">info@karanafrica.com</span>
         <a class="logo-header" href="#"><span class="fab fa-twitter logo-header twitter-header"></span></a>
@@ -81,7 +85,7 @@
         <div class="textBox">
           <h2>Experience Africa!</h2>
           <p>
-            <span class="intro-header"> Karibu Nyumbani - Welcome Home!</span> <br>
+            <span class="intro-header"> Karibu Nyumbani - Welcome Home</span> <br>
   “Karan” means “good” or “beautiful” in the Kalenjin language - one of Kenya’s tribes, and perhaps the
   world’s most athletic community. Karan Africa, therefore, stands for “beautiful Africa”. This name best
   illustrates the continent’s rich, vibrant, diverse and authentic culture!
@@ -449,7 +453,21 @@ meaningful engagements and elements of experiential learning.
 
 
     
+    <script type="text/javascript">
 
+      const myInp = document.getElementById("myInp");
+      const btnCopy = document.getElementById("btnCopy");
+
+      btnCopy.addEventListener("click", ()=>{
+        
+        myInp.select();
+      document.execCommand("copy");
+      } )
+     
+    
+      
+
+    </script>
 
     <script src="menu.js"></script>
 

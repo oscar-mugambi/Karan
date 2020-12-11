@@ -1291,7 +1291,19 @@ footer .fa-instagram:before {
   }
 }
 
-@media (max-width: 1150px) {
+#myInp {
+  background-color: transparent;
+  width: 9rem;
+}
+
+.input-text {
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  right: 5px;
+}
+
+@media (max-width: 800px) {
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
@@ -1369,7 +1381,7 @@ footer .fa-instagram:before {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 790px) {
   footer {
     position: relative;
     bottom: 0px;
