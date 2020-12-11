@@ -1193,6 +1193,11 @@ footer .fa-instagram:before {
   font-size: 2.5rem;
 }
 
+.copied-alert {
+  visibility: hidden;
+  font-weight: 400;
+}
+
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
   footer .fa-twitter:before,

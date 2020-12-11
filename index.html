@@ -45,6 +45,7 @@
         
           <input type="text" id="myInp" value="+254 783 902 252" readonly>
           <button id="btnCopy">Copy</button>
+          <span class="copied-alert">Copied!</span>
         </div>
         <!-- <span class="phone-number" id="copyBtn">+254 783 902 252</span> &nbsp; &nbsp; -->
         <span class="fas fa-envelope logo-header hide"></span> 
@@ -458,12 +459,18 @@ meaningful engagements and elements of experiential learning.
 
       const myInp = document.getElementById("myInp");
       const btnCopy = document.getElementById("btnCopy");
+      const copyAlert = document.querySelector(".copied-alert")
 
       btnCopy.addEventListener("click", ()=>{
         
         myInp.select();
-      document.execCommand("copy");
-      alert("Contact copied to your clipboard")
+        document.execCommand("copy");
+        copyAlert.style.visibility = "visible"
+
+        setTimeout(function(){
+          copyAlert.style.visibility = "hidden"
+        },1000)
+      
       } )
      
     
