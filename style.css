@@ -1507,8 +1507,10 @@ footer .fa-instagram:before {
     height: 50vh;
   }
 
-  .fa-phone:before {
-    content: "\f095";
+  .header-info-2 .fa-phone:before,
+  .fa-phone::after,
+  .fa-phone {
+    content: "";
     display: none !important;
   }
 
