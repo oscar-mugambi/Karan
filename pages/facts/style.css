@@ -688,6 +688,13 @@ button {
     font-size: 2rem;
   }
 
+  .fa-twitter:before,
+  .fa-instagram:before {
+    position: relative;
+    font-size: 2.2rem;
+    top: 4px;
+  }
+
   .hide {
     display: none;
   }
