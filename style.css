@@ -1220,10 +1220,10 @@ button {
 
 /* FOOTER ENDS HERE */
 @media (max-width: 1071px) {
-  footer .fa-twitter:before,
+  /* footer .fa-twitter:before,
   footer .fa-instagram:before {
     font-size: 4.4rem;
-  }
+  } */
   .intro-header {
     position: relative;
     display: inline-block;
@@ -1303,20 +1303,20 @@ button {
     font-weight: 600;
   }
 
-  .left .content .social a span {
+  /* .left .content .social a span {
     height: 50px;
     width: 50px;
     margin-right: 40px;
     font-size: 70px;
-  }
+  } */
 
-  .content-1 h2 {
+  /* .content-1 h2 {
     font-size: 39px;
   }
   .content-1 p {
     font-size: 29.5px;
   }
-}
+} */
 
 #myInp {
   background-color: transparent;
@@ -1464,7 +1464,7 @@ button {
   }
 
   .swiper-container {
-    height: 750px;
+    height: 810px;
     width: 700px;
   }
 }
@@ -1476,10 +1476,6 @@ button {
   .swiper-container {
     height: 810px;
     width: 600px;
-  }
-
-  .banner .textBox a {
-    font-size: 2em;
   }
 }
 @media (max-width: 650px) {

@@ -567,7 +567,7 @@ footer .fa-instagram:before {
 .span-copied {
   position: relative;
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 button {
@@ -613,15 +613,15 @@ button {
     position: relative;
     display: inline-block;
     top: -3px;
-    right: 33px;
+    right: 27px;
   }
   .to-know li {
     font-size: 19px;
   }
 
   #text {
-    margin-left: 2rem !important;
-    font-size: 6.5em;
+    margin-left: 4rem !important;
+    font-size: 5.5em;
   }
 
   footer .fa-twitter:before,
