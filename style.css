@@ -485,7 +485,7 @@ header .toggle img {
 }
 
 .one {
-  background-image: url(./img/collage/wide44.jpg);
+  background-image: url(./img/food2.jpg);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 10px;
@@ -498,7 +498,7 @@ header .toggle img {
   border-top-right-radius: 10px;
 }
 .three {
-  background-image: url(./img/collage/tall2.jpg);
+  background-image: url(./img/landscape.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -515,7 +515,7 @@ header .toggle img {
 }
 
 .six {
-  background-image: url(./img/collage/wide.jpg);
+  background-image: url(./img/animals.jpg);
   background-size: cover;
   background-position: center;
   border-bottom-left-radius: 10px;
