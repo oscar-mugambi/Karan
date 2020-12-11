@@ -493,6 +493,18 @@ button {
   cursor: pointer;
 }
 
+#myInp {
+  background-color: transparent;
+  width: 9rem;
+}
+
+.input-text {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  right: 33px;
+}
+
 @media (max-width: 1300px) {
   #btnCopy {
     position: relative;

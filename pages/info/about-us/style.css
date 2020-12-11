@@ -609,6 +609,17 @@ footer .fa-instagram:before {
 button {
   cursor: pointer;
 }
+#myInp {
+  background-color: transparent;
+  width: 9rem;
+}
+
+.input-text {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  right: 33px;
+}
 
 @media (max-width: 1010px) {
   #btnCopy {
@@ -630,7 +641,7 @@ button {
     font-weight: 400;
     font-size: 24px;
     padding: 2px;
-    padding: 7px 0;
+    padding: 5px 0;
   }
 
   .input-text {
@@ -649,7 +660,7 @@ button {
   }
   .fa-twitter:before,
   .fa-instagram:before {
-    font-size: 2.3rem;
+    font-size: 3rem;
   }
   footer .fa-twitter:before,
   footer .fa-instagram:before {

@@ -626,6 +626,17 @@ footer .fa-instagram:before {
 button {
   cursor: pointer;
 }
+#myInp {
+  background-color: transparent;
+  width: 9rem;
+}
+
+.input-text {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  right: 33px;
+}
 
 @media screen and (max-width: 1000px) {
   #btnCopy {
