@@ -580,7 +580,7 @@ footer .fa-instagram:before {
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0)
   );
 }
@@ -588,7 +588,7 @@ footer .fa-instagram:before {
 .swiper-container-3d .swiper-slide-shadow-left {
   background-image: linear-gradient(
     to left,
-    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0)
   );
 }
