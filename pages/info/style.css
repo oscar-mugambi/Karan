@@ -567,7 +567,7 @@ footer .fa-instagram:before {
 .span-copied {
   position: relative;
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 button {
@@ -585,6 +585,12 @@ button {
   right: 33px;
 }
 @media (max-width: 950px) {
+  .span-copied {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+  }
+
   #btnCopy {
     position: relative;
     padding: 6px 5px;
