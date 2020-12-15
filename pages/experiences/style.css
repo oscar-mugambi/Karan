@@ -762,6 +762,11 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 729px;
+  }
   .video-section .navigation li img {
     width: 220px;
     transition: 0.5s;
