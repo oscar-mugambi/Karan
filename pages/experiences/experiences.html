@@ -66,6 +66,18 @@
     
   </section>
 
+  <a class="custom-button" href="videos.html">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+     Videos
+  </a>
+
+
+
+   
+
 
   <div class="gallery">
     <a href="../../img/experiences/bg.jpg" data-lightbox="mygallery" data-title="Animal"><img src="../../img/experiences/bg.jpg" alt=""></a> 
@@ -83,18 +95,19 @@
    
   </div>
  
-  <div class="video-section">
-    <video src="" autoplay muted loop>
-      <source src="" type="video/mp4">
+  <!-- <div class="video-section">
+    <video id="slider" src="" autoplay muted loop>
+      <source src="video1.mp4" type="video/mp4">
     </video>
 
     <ul class="navigation">
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
+      <li onclick="videoUrl('video1.mp4')"><img src="../../img/experiences/bg.jpg" alt=""></li>
+      <li onclick="videoUrl('video1.mp4')"><img src="../../img/experiences/bg.jpg" alt=""></li>
+      <li onclick="videoUrl('video1.mp4')"><img src="../../img/experiences/bg.jpg" alt=""></li>
+      <li onclick="videoUrl('video1.mp4')"><img src="../../img/experiences/bg.jpg" alt=""></li>
     </ul>
-  </div>
+  </div> -->
+  
   
   <footer>
     <div class="main-content">
@@ -168,6 +181,12 @@
   
   } );
  
+</script>
+
+<script type="text/javascript">
+  function videoUrl(abc){
+    document.getElementById('slider').src = abc
+  }
 </script>
 </body>
 </html>
