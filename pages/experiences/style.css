@@ -428,7 +428,7 @@ section .header2 {
 }
 
 .video-section .navigation li img:hover {
-  width: 200px;
+  width: 150px;
   opacity: 1;
 }
 
