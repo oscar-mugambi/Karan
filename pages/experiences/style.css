@@ -968,6 +968,8 @@ button {
 @media screen and (max-width: 991px) {
   section {
     background-size: 200%;
+    top: -25px;
+    min-height: 75vh;
   }
 
   section .content h2 {
