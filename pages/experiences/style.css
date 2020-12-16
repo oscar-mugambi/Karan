@@ -384,7 +384,7 @@ section .header2 {
 
 .video-section .navigation {
   position: absolute;
-  bottom: 40px;
+  bottom: 65px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
