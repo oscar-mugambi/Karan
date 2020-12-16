@@ -1224,6 +1224,20 @@ button {
   footer .fa-instagram:before {
     font-size: 4.4rem;
   } */
+  .box h2 {
+    font-size: 34px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
   .intro-header {
     position: relative;
     display: inline-block;
