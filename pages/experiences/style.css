@@ -460,6 +460,12 @@ section .header2 {
 .custom-button {
   position: relative;
   top: 9rem;
+  background-color: #1670f0;
+  color: white;
+}
+
+.custom-button:hover {
+  background-color: rgb(62, 59, 237);
 }
 
 .custom-button:before {
@@ -481,7 +487,7 @@ section .header2 {
   background: linear-gradient(to right, #0c002b, #1779ff);
   animation: animate1 2s linear infinite;
 }
-
+/* 
 @keyframes animate1 {
   0% {
     transform: translateX(-30%);
@@ -513,7 +519,7 @@ section .header2 {
   100% {
     transform: translateY(30%);
   }
-}
+} */
 
 .custom-button span:nth-child(2) {
   position: absolute;
