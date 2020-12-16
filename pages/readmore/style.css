@@ -286,7 +286,6 @@ header {
 
 .read-more p {
   color: #fff;
-  text-align: justify;
   font-size: 1rem;
   line-height: 45px;
 }
@@ -506,6 +505,9 @@ button {
 }
 
 @media (max-width: 1300px) {
+  .read-more p {
+    line-height: 60px !important;
+  }
   #btnCopy {
     position: relative;
     padding: 6px 5px;
