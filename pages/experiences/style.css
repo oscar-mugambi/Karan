@@ -762,6 +762,11 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
+  .lb-data .lb-close {
+    position: relative;
+    right: 20px !important;
+  }
+
   .gallery img {
     transition: 1s;
     padding: 15px;
