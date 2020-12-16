@@ -367,6 +367,21 @@ section .header2 {
 
 /* VIDEOS STARTS HERE */
 
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title p {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+  color: #1670f0;
+}
+
 .video-section {
   position: relative;
   width: 100%;
