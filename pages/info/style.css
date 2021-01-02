@@ -36,6 +36,15 @@ header {
   background-color: rgb(211, 211, 211);
   z-index: 1000000;
 }
+.text-call {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+}
+.text-call-a {
+  text-decoration: none;
+  color: #000;
+}
 
 /* COPY 3 */
 
@@ -769,6 +778,11 @@ button {
 }
 
 @media (max-width: 950px) {
+  .text-call-a {
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+  }
   .span-copied {
     position: relative;
     display: inline-block;
