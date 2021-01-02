@@ -890,8 +890,8 @@ button {
     top: -2px;
     right: 0;
     z-index: 1;
-    width: 66px;
-    height: 66px;
+    width: 70px;
+    height: 70px;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.672);
     display: flex;
@@ -994,6 +994,7 @@ button {
 
   .pos-up {
     font-size: 33px;
+    top: -9px;
   }
 }
 
