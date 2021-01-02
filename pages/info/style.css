@@ -719,6 +719,55 @@ button {
   top: -5px;
   right: 33px;
 }
+
+@media (max-width: 991px) {
+  .pos-up {
+    position: relative;
+    top: -5px;
+  }
+
+  footer-3 .footer-container h2 {
+    margin-bottom: 30px;
+  }
+
+  footer-3 {
+    padding-left: 70px;
+  }
+
+  footer-3 .footer-container {
+    flex-direction: column;
+  }
+
+  footer-3 .footer-container h2 {
+    font-size: 33px;
+  }
+
+  .quickLinks ul li {
+    font-size: 23px;
+  }
+
+  .contact .info {
+    position: relative;
+    font-size: 26px;
+  }
+
+  footer-3 .footer-container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  footer-3 .footer-container .sec.aboutus,
+  .quickLinks,
+  .contact {
+    width: 100%;
+  }
+
+  .footer-sci li a .fa {
+    color: #fff;
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 950px) {
   .span-copied {
     position: relative;
