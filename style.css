@@ -1568,7 +1568,7 @@ footer-3 p {
 
 @media (max-width: 991px) {
   footer-3 {
-    padding: 74px;
+    padding-left: 70px;
   }
 
   footer-3 .footer-container {
