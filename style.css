@@ -1438,6 +1438,11 @@ footer-3 p {
   text-decoration: none;
 }
 
+.footer-sci li a .fa {
+  color: #fff;
+  font-size: 30px;
+}
+
 /* NEW FOOTER ENDS HERE*/
 
 /* FOOTER ENDS HERE */
@@ -1576,7 +1581,7 @@ footer-3 p {
   }
 
   footer-3 .footer-container h2 {
-    font-size: 29px;
+    font-size: 33px;
   }
 
   .quickLinks ul li {
@@ -1597,6 +1602,11 @@ footer-3 p {
   .quickLinks,
   .contact {
     width: 100%;
+  }
+
+  .footer-sci li a .fa {
+    color: #fff;
+    font-size: 40px;
   }
 }
 
