@@ -300,7 +300,7 @@ section {
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
-  background: url(../../img/experiences/bg.jpg),
+  background: url(../../img/experiences/lion.jpeg),
     url(../../img/experiences/mask.jpg);
   background-blend-mode: screen;
   background-position: center;
@@ -318,7 +318,7 @@ section .content h2 {
   top: -2rem;
   font-size: 5em;
   line-height: 1em;
-  color: #015b75;
+  color: #0651b3;
   font-family: "Kaushan Script", cursive;
 }
 
