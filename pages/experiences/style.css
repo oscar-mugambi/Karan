@@ -1164,7 +1164,7 @@ button {
   }
 
   section {
-    background-size: 200%;
+    /* background-size: 200%; */
     top: -25px;
     min-height: 75vh;
   }
