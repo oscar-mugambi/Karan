@@ -768,6 +768,12 @@ button {
 }
 
 @media (max-width: 1010px) {
+  .contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
   #btnCopy {
     position: relative;
     padding: 7px 5px;
@@ -984,6 +990,10 @@ button {
 
   .footer-sci li {
     margin-right: 15px;
+  }
+
+  .pos-up {
+    font-size: 29px;
   }
 }
 
