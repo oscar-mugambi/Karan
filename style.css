@@ -463,7 +463,7 @@ header .toggle img {
   width: 100%;
   height: 100%;
   grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 2px;
 }
 
@@ -478,8 +478,8 @@ header .toggle img {
 }
 
 .portfolio-item.medium {
-  grid-row: span 2;
-  grid-column: span 2;
+  grid-row: span 3;
+  grid-column: span 3;
 }
 .portfolio-item.large {
   grid-row: span 3;
@@ -487,10 +487,10 @@ header .toggle img {
 }
 .portfolio-item.tall {
   grid-row: span 3;
-  grid-column: span 2;
+  grid-column: span 3;
 }
 .portfolio-item.wide {
-  grid-row: span 2;
+  grid-row: span 3;
   grid-column: span 3;
 }
 
