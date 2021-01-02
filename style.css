@@ -1576,7 +1576,16 @@ footer-3 p {
   }
 
   footer-3 .footer-container h2 {
-    font-size: 40px;
+    font-size: 29px;
+  }
+
+  .quickLinks ul li {
+    font-size: 20px;
+  }
+
+  .contact .info {
+    position: relative;
+    font-size: 25px;
   }
 
   footer-3 .footer-container .sec {
