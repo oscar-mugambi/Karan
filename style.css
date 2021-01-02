@@ -1438,27 +1438,6 @@ footer-3 p {
   text-decoration: none;
 }
 
-@media (max-width: 991px) {
-  footer-3 {
-    padding: 40px;
-  }
-
-  footer-3 .footer-container {
-    flex-direction: column;
-  }
-
-  footer-3 .footer-container .sec {
-    margin-right: 0;
-    margin-bottom: 40px;
-  }
-
-  footer-3 .footer-container .sec.aboutus,
-  .quickLinks,
-  .contact {
-    width: 100%;
-  }
-}
-
 /* NEW FOOTER ENDS HERE*/
 
 /* FOOTER ENDS HERE */
@@ -1585,6 +1564,31 @@ footer-3 p {
   display: inline-block;
   top: -5px;
   right: 33px;
+}
+
+@media (max-width: 991px) {
+  footer-3 {
+    padding: 122px;
+  }
+
+  footer-3 .footer-container {
+    flex-direction: column;
+  }
+
+  footer-3 .footer-container h2 {
+    font-size: 40px;
+  }
+
+  footer-3 .footer-container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  footer-3 .footer-container .sec.aboutus,
+  .quickLinks,
+  .contact {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
