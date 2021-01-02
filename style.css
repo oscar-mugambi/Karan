@@ -1344,7 +1344,7 @@ footer-3 .footer-container h2 {
   position: relative;
   color: #fff;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 footer-3 .footer-container h2:before {
@@ -1577,6 +1577,10 @@ footer-3 p {
     top: -5px;
   }
 
+  footer-3 .footer-container h2 {
+    margin-bottom: 30px;
+  }
+
   footer-3 {
     padding-left: 70px;
   }
@@ -1590,7 +1594,7 @@ footer-3 p {
   }
 
   .quickLinks ul li {
-    font-size: 22px;
+    font-size: 23px;
   }
 
   .contact .info {
