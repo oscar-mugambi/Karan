@@ -45,6 +45,16 @@
   margin-right: 5px;
 }
 
+.text-call {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+}
+.text-call-a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* MENU */
 
 /* NAIGATION STARTS HERE */
@@ -1572,6 +1582,10 @@ footer-3 p {
 }
 
 @media (max-width: 991px) {
+  .text-call-a {
+    font-size: 25px;
+  }
+
   .pos-up {
     position: relative;
     top: -5px;
