@@ -33,6 +33,16 @@
   opacity: 0;
 }
 
+.text-call {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+}
+.text-call-a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* COPY 1 */
 
 .menu-wrap .hamburger {

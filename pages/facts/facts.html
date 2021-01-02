@@ -37,8 +37,7 @@
       <div class="input-text">
       <!-- <span class="fas fa-phone logo-header phone-logo-1"></span> &nbsp; -->
       
-        <input type="text" id="myInp" value="  +254 783 902 252" readonly>
-        <button id="btnCopy">Copy</button>
+      <p class="text-call"><span class="fas fa-phone logo-header "></span> <a class="text-call-a" href="tel:+254 783 902 252">+254 783 902 252</a></p>
         
       </div>
       <!-- <span class="phone-number" id="copyBtn">+254 783 902 252</span> &nbsp; &nbsp; -->
@@ -47,7 +46,6 @@
       <a class="logo-header" href="#"><span class="fab fa-twitter logo-header twitter-header"></span></a>
       <a class="logo-header" href="https://instagram.com/karan.africa?igshid=owrz6c75piyf"><span class="fab fa-instagram logo-header instagram-header"></span></a>
     </div>
-    <div class="copied-alert"><span class="span-copied"> Copied!</span></div>
 
     <div class="menu-wrap">
       <input type="checkbox" class="toggler">
@@ -193,29 +191,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script type="text/javascript">
 
-  const myInp = document.getElementById("myInp");
-  const btnCopy = document.getElementById("btnCopy");
-  const copyAlert = document.querySelector(".copied-alert")
-
-  btnCopy.addEventListener("click", ()=>{
-    
-    myInp.select();
-    document.execCommand("copy");
-    copyAlert.style.visibility = "visible"
-
-    setTimeout(function(){
-      copyAlert.style.visibility = "hidden"
-    },500)
-    document.getSelection().removeAllRanges();
-  
-  } );
- 
-
-  
-
-</script>
 
  <script>
   var swiper = new Swiper('.swiper-container', {

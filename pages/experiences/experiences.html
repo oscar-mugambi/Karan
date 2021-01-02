@@ -23,8 +23,7 @@
     </a>
     <div class="header-info-2">
       <div class="input-text">
-        <input type="text" id="myInp" value="  +254 783 902 252" readonly>
-        <button id="btnCopy">Copy</button>
+        <p class="text-call"><span class="fas fa-phone logo-header "></span> <a class="text-call-a" href="tel:+254 783 902 252">+254 783 902 252</a></p>
       </div>
       <span class="fas fa-envelope logo-header hide"></span> 
       <span class="text top-text logo-header hide">info@karanafrica.com</span>
@@ -160,26 +159,6 @@
  
   <script src="../../menu.js"></script>
 
-<script type="text/javascript">
-
-  const myInp = document.getElementById("myInp");
-  const btnCopy = document.getElementById("btnCopy");
-  const copyAlert = document.querySelector(".copied-alert")
-
-  btnCopy.addEventListener("click", ()=>{
-    
-    myInp.select();
-    document.execCommand("copy");
-    copyAlert.style.visibility = "visible"
-
-    setTimeout(function(){
-      copyAlert.style.visibility = "hidden"
-    },500)
-    document.getSelection().removeAllRanges();
-  
-  } );
- 
-</script>
 
 <script type="text/javascript">
   function videoUrl(abc){

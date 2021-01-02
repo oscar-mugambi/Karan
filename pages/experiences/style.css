@@ -35,6 +35,16 @@
   opacity: 0;
 }
 
+.text-call {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+}
+.text-call-a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* COPY 1 */
 
 .menu-wrap .hamburger {
@@ -1166,6 +1176,12 @@ button {
   }
 }
 @media screen and (max-width: 900px) {
+  .text-call-a {
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+  }
+
   .hide {
     display: none;
   }
