@@ -890,8 +890,8 @@ button {
     top: -2px;
     right: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
+    width: 66px;
+    height: 66px;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.672);
     display: flex;
