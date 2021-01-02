@@ -1177,7 +1177,7 @@ button {
 }
 @media screen and (max-width: 900px) {
   .text-call-a {
-    font-size: 25px;
+    font-size: 21px;
     position: relative;
     top: 2px;
   }
