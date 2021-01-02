@@ -96,8 +96,8 @@ header .toggle img {
   font-size: 1.3rem;
 }
 
-.fa-twitter:before,
-.fa-instagram:before {
+.header-info-2 .fa-twitter:before,
+.header-info-2 .fa-instagram:before {
   font-size: 1.7rem;
 }
 
@@ -833,8 +833,8 @@ button {
     font-size: 2.5rem;
   }
 
-  .fa-twitter:before,
-  .fa-instagram:before {
+  .header-info-2 .fa-twitter:before,
+  .header-info-2 .fa-instagram:before {
     position: relative;
     font-size: 2.4rem;
     top: 4px;
