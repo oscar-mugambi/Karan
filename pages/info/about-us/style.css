@@ -248,8 +248,8 @@ header {
   font-size: 1.3rem;
 }
 
-.fa-twitter:before,
-.fa-instagram:before {
+.header-info-2 .fa-twitter:before,
+.header-info-2 .fa-instagram:before {
   font-size: 1.7rem;
 }
 
@@ -804,8 +804,8 @@ button {
     color: #9e9e9e;
     font-size: 1.5em;
   }
-  .fa-twitter:before,
-  .fa-instagram:before {
+  .header-info-2 .fa-twitter:before,
+  .header-info-2 .fa-instagram:before {
     position: relative;
     font-size: 2.8rem;
     top: 6px;
@@ -958,7 +958,7 @@ button {
   }
 
   .quickLinks ul li {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .contact .info {
@@ -979,7 +979,11 @@ button {
 
   .footer-sci li a .fa {
     color: #fff;
-    font-size: 40px;
+    font-size: 52px;
+  }
+
+  .footer-sci li {
+    margin-right: 15px;
   }
 }
 
