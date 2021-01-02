@@ -1572,6 +1572,11 @@ footer-3 p {
 }
 
 @media (max-width: 991px) {
+  .pos-up {
+    position: relative;
+    top: -5px;
+  }
+
   footer-3 {
     padding-left: 70px;
   }
