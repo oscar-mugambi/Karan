@@ -17,6 +17,16 @@
 
 /* HAMBURGER MENU STARTS HERE */
 
+.text-call {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+}
+.text-call-a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* MENU STYLES */
 .menu-wrap {
   position: relative;
@@ -946,6 +956,11 @@ button {
 }
 
 @media (max-width: 991px) {
+  .text-call-a {
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+  }
   .pos-up {
     position: relative;
     top: -5px;
