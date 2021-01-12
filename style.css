@@ -27,13 +27,6 @@
   z-index: 100000;
 }
 
-.line {
-  display: inline-block;
-  width: 30px;
-  height: 3px;
-  background: white;
-  margin: 3px;
-}
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -62,57 +55,6 @@
 /* NAIGATION ENDS HERE */
 
 /* HAMBURGER MENU STARTS HERE */
-
-.showcase {
-  background: var(--primary-color);
-  color: #fff;
-  height: 100vh;
-  position: relative;
-}
-
-.showcase:before {
-  content: "";
-  background: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-    no-repeat center center/cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.showcase .showcase-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-}
-
-.showcase h1 {
-  font-size: 4rem;
-}
-
-.showcase p {
-  font-size: 1.3rem;
-}
-
-.btn {
-  display: inline-block;
-  border: none;
-  background: var(--primary-color);
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
-  text-decoration: none;
-}
-
-.btn:hover {
-  opacity: 0.7;
-}
 
 /* MENU STYLES */
 .menu-wrap {
@@ -433,20 +375,6 @@ header .toggle img {
   text-transform: capitalize;
 }
 
-.banner .videoBx {
-  position: relative;
-  background: #fff;
-  margin-left: 40px;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  opacity: 0.5;
-}
-
-.banner .videoBx img {
-  opacity: 1;
-}
-
 /* KEVIN POWELL COLLAGE STARTS HERE */
 
 .the-main-content {
@@ -495,7 +423,7 @@ header .toggle img {
 }
 
 .one {
-  background-image: url(./img/foodnew.png);
+  background-image: url(./img/collage/foodnew.png);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 10px;
@@ -507,16 +435,12 @@ header .toggle img {
   background-position: center;
   border-top-right-radius: 10px;
 }
-.three {
-  background-image: url(./img/landscape.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.four {
+
+/* .four {
   background-image: url(./img/collage/wide3.jpg);
   background-size: cover;
   background-position: center;
-}
+} */
 .five {
   background-image: url(./img/collage/tall3.jpg);
   background-size: cover;
@@ -525,35 +449,10 @@ header .toggle img {
 }
 
 .six {
-  background-image: url(./img/animals.jpg);
+  background-image: url(./img/collage/animals.jpg);
   background-size: cover;
   background-position: center;
   border-bottom-left-radius: 10px;
-}
-
-/* KEVIN POWELL COLLAGE ENDS HERE */
-
-.banner .sci {
-  position: absolute;
-  bottom: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner .sci li {
-  list-style: none;
-}
-
-.banner .sci li a {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.banner .sci li a img {
-  transform: scale(0.5);
-  filter: invert(1);
 }
 
 /* LANDING PAGE ENDS HERE */
@@ -609,19 +508,7 @@ header .toggle img {
   border-radius: 20px 20px 0 0;
   opacity: 0.7;
 }
-.card1 > .container:after {
-  background-image: linear-gradient(135deg, #0100ec, #fb36f4);
-}
-.card2 > .container:after {
-  background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
-  margin-left: 1rem;
-}
-.card3 > .container:after {
-  background-image: linear-gradient(135deg, #ffab1d, #f8501c);
-}
-.card4 > .container:after {
-  background-image: linear-gradient(135deg, #ffab1d, #f8501c);
-}
+
 .details {
   padding: 20px 10px;
 }
@@ -858,76 +745,6 @@ header .toggle img {
 
 /* WHO CAN TRAVEL WITH US STARTS HERE */
 
-/* PACKAGES STARTS HERE*/
-
-.body-packages {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #111;
-}
-
-.container-packages {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 30px;
-}
-
-.container-packages .card-packages {
-  position: relative;
-  max-width: 300px;
-  height: 215px;
-  background: #fff;
-  margin: 30px 10px;
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
-  transition: 0.6s ease-in-out;
-}
-
-.card-packages:hover {
-  height: 420px;
-}
-
-.imgBx-packages {
-  position: relative;
-  width: 260px;
-  height: 260px;
-  top: -60px;
-  left: 20px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-.imgBx-packages img {
-  max-width: 100%;
-  border-radius: 4px;
-}
-
-.content-packages {
-  position: relative;
-  margin-top: -140px;
-  padding: 10px 15px;
-  text-align: center;
-  color: #111;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.4s ease-in-out;
-}
-
-.card-packages:hover .content-packages {
-  visibility: visible;
-  opacity: 1;
-  margin-top: -40px;
-  transition-delay: 0.3s;
-}
-
-/* PACKAGES ENDS HERE*/
-
 /* NEW CARD GRID STARTS HERE*/
 
 .new-title {
@@ -1040,156 +857,6 @@ header .toggle img {
 
 /* FOOTER STARTS HERE */
 
-footer {
-  position: relative;
-  bottom: 0px;
-  background: #111;
-  padding: 4rem 0;
-  padding-left: 90px;
-}
-
-footer h2,
-footer p,
-footer span {
-  color: rgb(158, 158, 158);
-}
-
-.main-content {
-  display: flex;
-  flex-direction: row;
-}
-
-.main-content .box {
-  width: 100%;
-}
-
-.box {
-  margin-left: 1rem;
-}
-
-.box h2 {
-  font-size: 25px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-.box .content {
-  margin: 20px 0 0 0;
-  position: relative;
-}
-.box .content:before {
-  position: absolute;
-  content: "";
-  top: -26px;
-  height: 2px;
-  width: 100%;
-  background: #1a1a1a;
-}
-.box .content:after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 15%;
-  background: #f12020;
-  top: -26px;
-}
-.left .content p {
-  text-align: justify;
-}
-.left .content .social {
-  margin: 20px 0 0 0;
-}
-.left .content .social a {
-  padding: 0 2px;
-}
-.left .content .social a span {
-  height: 40px;
-  width: 40px;
-  background: #1a1a1a;
-  line-height: 40px;
-  text-align: center;
-  font-size: 40px;
-  border-radius: 5px;
-  transition: 0.3s;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-.left .content .social a span:hover {
-  background: #f12020;
-}
-.center .content .fas {
-  font-size: 1.4375rem;
-  background: #1a1a1a;
-  height: 45px;
-  width: 45px;
-  line-height: 45px;
-  text-align: center;
-  border-radius: 50%;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.center .content .fas:hover {
-  background: #f12020;
-}
-
-.center .content .phone {
-  margin: 15px 0;
-}
-.right form .text {
-  font-size: 1.0625rem;
-  margin-bottom: 2px;
-  color: #656565;
-}
-.right form .msg {
-  margin-top: 10px;
-}
-.right form input,
-.right form .msgForm {
-  width: 100%;
-  font-size: 1.0625rem;
-  background: #151515;
-  padding-left: 10px;
-  border: 1px solid #222222;
-}
-.right form input:focus,
-.right form .msgForm:focus {
-  outline-color: #3498db;
-}
-.right form input {
-  height: 35px;
-}
-.right form .btn {
-  margin-top: 10px;
-}
-.right form .btn button {
-  height: 40px;
-  width: 100%;
-  border: none;
-  outline: none;
-  background: #f12020;
-  font-size: 1.0625rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.right form .btn button:hover {
-  background: #000;
-}
-.bottom center {
-  padding: 5px;
-  font-size: 0.9375rem;
-  background: #151515;
-}
-.bottom center span {
-  color: #656565;
-}
-.bottom center a {
-  color: #f12020;
-  text-decoration: none;
-}
-.bottom center a:hover {
-  text-decoration: underline;
-}
-
 .intro-header {
   position: relative;
   display: inline-block;
@@ -1227,98 +894,6 @@ footer .fa-instagram:before {
 button {
   cursor: pointer;
 }
-
-/* NEW FOOTER STARTS HERE */
-
-/* footer-2 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-height: 100vh;
-  flex-direction: column;
-  background-color: #ede7f6;
-}
-
-footer-3 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 50px 100px;
-  background: #111;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-footer-3 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-footer-3 .footer-container .sec {
-  margin-right: 30px;
-}
-
-footer-3 .footer-container .sec.aboutus {
-  width: 40%;
-}
-footer-3 .footer-container .sec.aboutus {
-  position: relative;
-  color: #fff;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
-.footer-head-2 {
-  position: relative;
-}
-
-footer-3 .footer-container .sec.aboutus h2:before {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background: #f00;
-}
-
-.footer-sci {
-  margin-top: 20px;
-  display: flex;
-}
-
-.footer-sci li {
-  list-style: none;
-}
-
-.footer-sci li a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background: #222;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.footer-sci li a:hover {
-  background: #f00;
-}
-
-.footer-sci li a .fa {
-  color: #fff;
-  font-size: 20px;
-}
-
-.icon-position {
-  position: relative;
-  top: 8px;
-  left: 12px;
-} */
 
 footer-3 {
   position: relative;
@@ -1544,10 +1119,6 @@ footer-3 p {
     width: 100%;
     height: 564px;
     margin: 40px 0 100px;
-  }
-
-  .banner .sci {
-    left: 50px;
   }
 
   .title-footer {
