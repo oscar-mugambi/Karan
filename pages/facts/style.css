@@ -429,9 +429,8 @@ footer-3 {
   flex-wrap: wrap;
   font-weight: 200;
 }
-
 footer-3 h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 footer-3 .footer-container {

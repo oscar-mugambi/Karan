@@ -463,7 +463,7 @@ footer-3 {
 }
 
 footer-3 h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 footer-3 .footer-container {
