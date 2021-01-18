@@ -1336,6 +1336,21 @@ footer-3 p {
     color: #fff;
     font-size: 40px;
   }
+
+  .slide img {
+    height: 80%;
+  }
+}
+
+@media (max-width: 850px) {
+  .body {
+    height: 40vh;
+  }
+
+  .swiper-container {
+    height: 810px;
+    width: 700px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1466,16 +1481,6 @@ footer-3 p {
   }
 }
 
-@media (max-width: 850px) {
-  .body {
-    height: 40vh;
-  }
-
-  .swiper-container {
-    height: 810px;
-    width: 700px;
-  }
-}
 @media screen and (max-width: 750px) {
   .body {
     height: 40vh;
