@@ -300,10 +300,10 @@ section {
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
-  background: url(../../img/experiences/gir.jpg),
+  background: url(../../img/collage/tribes.jpg),
     url(../../img/experiences/mask.jpg);
   background-blend-mode: screen;
-  background-position: center;
+
   background-size: cover;
   background-repeat: no-repeat;
   top: 4rem;
@@ -1174,8 +1174,9 @@ button {
 
   section {
     /* background-size: 200%; */
-    top: -25px;
-    min-height: 75vh;
+    top: 36px;
+    min-height: 40vh;
+    background-position: center;
   }
 
   section .content h2 {
