@@ -25,13 +25,8 @@ const Timer = () => {
 
   if (nextTurn == 4) {
     imageArr[nextTurn].checked = false;
-    slides.style.visibility = "hidden";
-
     slideArr.forEach((slide) => (slide.style.transition = "4s"));
-
     imageArr[0].checked = true;
-
-    slides.style.visibility = "";
   }
 };
 
