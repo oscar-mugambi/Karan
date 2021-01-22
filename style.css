@@ -346,7 +346,7 @@ header .toggle img {
 
 .banner .textBox {
   position: relative;
-  max-width: 490px;
+  max-width: 500px;
   z-index: 2;
 }
 
@@ -438,8 +438,9 @@ input[name="r"] {
 
 .slide {
   width: 20%;
-  transition: 1s;
+  transition: 2s;
 }
+
 .slide img {
   width: 100%;
   height: 100%;
