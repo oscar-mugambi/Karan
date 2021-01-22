@@ -346,7 +346,7 @@ header .toggle img {
 
 .banner .textBox {
   position: relative;
-  max-width: 550px;
+  max-width: 490px;
   z-index: 2;
 }
 
@@ -375,6 +375,13 @@ header .toggle img {
   letter-spacing: 1px;
   font-weight: 400;
   text-transform: capitalize;
+}
+
+.banner .textBox a:hover {
+  background-color: rgb(24, 24, 24);
+  color: white;
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
 .space-out {
