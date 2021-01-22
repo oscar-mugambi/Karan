@@ -3,8 +3,14 @@ const navItems = document.querySelectorAll(".nav-item");
 const menu = document.querySelector(".menu");
 const copyBtn = document.getElementById("copyBtn");
 const images = document.querySelectorAll("[data-image]");
+const body = document.querySelector("body");
 
 let imageArr = [...images];
+
+var scale = "scale(1)";
+document.body.style.webkitTransform = scale; // Chrome, Opera, Safari
+document.body.style.msTransform = scale; // IE 9
+document.body.style.transform = scale; // General
 
 const Timer = () => {
   let current = imageArr.find((item) => item.checked);

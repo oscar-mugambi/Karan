@@ -377,32 +377,15 @@ header .toggle img {
   text-transform: capitalize;
 }
 
-/* .banner .videoBx {
-  position: relative;
-  background: #fff;
-  margin-left: 40px;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  opacity: 0.5;
+.space-out {
+  display: flex;
+  justify-content: space-between;
 }
-.banner .videoBx img {
-  opacity: 1;
-} */
-
-/* recent */
-
-/* .banner .videoBx,
-.the-main-content {
-  width: 100%;
-  height: 564px;
-  margin: 40px 0 100px;
-} */
 
 /* SLIDE-SHOW STARTS HERE */
 .slidershow {
   width: 700px;
-  height: 400px;
+  height: 340px;
   overflow: hidden;
 }
 .middle {
