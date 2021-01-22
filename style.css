@@ -439,6 +439,7 @@ input[name="r"] {
 .slide {
   width: 20%;
   transition: 2s;
+  transition-delay: 3s;
 }
 
 .slide img {

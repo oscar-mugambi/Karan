@@ -17,7 +17,7 @@ let imageArr = [...images];
 let slideArr = [...slide];
 
 const Timer = () => {
-  slideArr.forEach((slide) => (slide.style.transition = "2s ease"));
+  slideArr.forEach((slide) => (slide.style.transition = "1s ease"));
   let current = imageArr.find((item) => item.checked);
   let nextTurn = imageArr.indexOf(current) + 1;
   current.checked = false;
@@ -25,7 +25,7 @@ const Timer = () => {
 
   if (nextTurn == 4) {
     imageArr[nextTurn].checked = false;
-    slideArr.forEach((slide) => (slide.style.transition = "4s ease"));
+    slideArr.forEach((slide) => (slide.style.transition = "2s ease"));
     imageArr[0].checked = true;
   }
 };
@@ -44,4 +44,4 @@ function detoggle() {
 
 menu.addEventListener("click", detoggle);
 
-let interval = setInterval(Timer, 5000);
+let interval = setInterval(Timer, 3000);
