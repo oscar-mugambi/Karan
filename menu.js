@@ -25,7 +25,7 @@ const Timer = () => {
 
   if (nextTurn == 4) {
     imageArr[nextTurn].checked = false;
-    slideArr.forEach((slide) => (slide.style.transition = "3s"));
+    slideArr.forEach((slide) => (slide.style.transition = "3.5s ease-out"));
     imageArr[0].checked = true;
   }
 };

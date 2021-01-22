@@ -466,21 +466,13 @@ input[name="r"] {
 #r5:checked ~ .s1 {
   margin-left: -80%;
 }
-/* 
-@keyframes anime {
+
+/* @keyframes anime {
   from {
     margin-left: 0;
   }
   to {
     margin-left: -20%;
-  }
-}
-@keyframes anime2 {
-  from {
-    margin-left: -80%;
-  }
-  to {
-    margin-left: 0%;
   }
 } */
 
