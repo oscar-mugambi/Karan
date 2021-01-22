@@ -7,10 +7,10 @@ const body = document.querySelector("body");
 
 let imageArr = [...images];
 
-var scale = "scale(1)";
-document.body.style.webkitTransform = scale; // Chrome, Opera, Safari
-document.body.style.msTransform = scale; // IE 9
-document.body.style.transform = scale; // General
+// var scale = "scale(1)";
+// document.body.style.webkitTransform = scale; // Chrome, Opera, Safari
+// document.body.style.msTransform = scale; // IE 9
+// document.body.style.transform = scale; // General
 
 const Timer = () => {
   let current = imageArr.find((item) => item.checked);
