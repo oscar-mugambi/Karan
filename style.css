@@ -436,10 +436,22 @@ input[name="r"] {
   display: flex;
 }
 
-.slide {
+/* .slide {
+  
   width: 20%;
+
   transition: 2s;
   transition-delay: 3s;
+} */
+
+.slide {
+  width: 20%;
+}
+
+.slide [check] {
+  width: 20%;
+  animation-name: anime;
+  animation-duration: 2s ease;
 }
 
 .slide img {
@@ -461,6 +473,15 @@ input[name="r"] {
 }
 #r5:checked ~ .s1 {
   margin-left: -80%;
+}
+
+@keyframes anime {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -20%;
+  }
 }
 
 /* SLIDE-SHOW STARTS ENDS HERE */
