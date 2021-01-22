@@ -47,4 +47,6 @@ function detoggle() {
   toggler.checked = false;
 }
 
+menu.addEventListener("click", detoggle);
+
 let interval = setInterval(Timer, 5000);
