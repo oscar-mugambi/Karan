@@ -380,13 +380,9 @@ header .toggle img {
 .banner .textBox a:hover {
   background-color: rgb(24, 24, 24);
   color: white;
-  transition: 0.3s;
-  transform: scale(1.1);
-}
-
-.space-out {
-  display: flex;
-  justify-content: space-between;
+  transition: 0.5s ease-out;
+  /* transform: scale(1.05); */
+  border: 1px solid white;
 }
 
 /* SLIDE-SHOW STARTS HERE */
@@ -446,12 +442,8 @@ input[name="r"] {
 
 .slide {
   width: 20%;
-}
-
-.slide [check] {
-  width: 20%;
-  animation-name: anime;
-  animation-duration: 2s ease;
+  transition: 3s;
+  transition-delay: 2s;
 }
 
 .slide img {
@@ -474,7 +466,7 @@ input[name="r"] {
 #r5:checked ~ .s1 {
   margin-left: -80%;
 }
-
+/* 
 @keyframes anime {
   from {
     margin-left: 0;
@@ -483,6 +475,14 @@ input[name="r"] {
     margin-left: -20%;
   }
 }
+@keyframes anime2 {
+  from {
+    margin-left: -80%;
+  }
+  to {
+    margin-left: 0%;
+  }
+} */
 
 /* SLIDE-SHOW STARTS ENDS HERE */
 
